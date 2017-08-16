@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>class 9-10</title>
+
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../style.css" rel="stylesheet">
+        <link href="../css/responsive.css" rel="stylesheet">
+
+
+        <!--[if lt IE 9]>
+        <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style type="text/css">
+          .revealed h2 {
+            font-size: 30px !important;
+          }
+
+          .revealed .main-frame-container {
+            padding-right: 10px;
+          }
+
+          .activity {
+            border: 3px solid #3C72B3;
+            background: #B0CEE3;
+            border-radius: 20px;
+            padding: 8px 15px;
+            color: #000;
+            margin: 15px 0;
+            line-height: 1.5em;
+            font-size: 16px;
+          }
+          .content_table table tr td {
+            padding: 4px;
+            border: 1px solid #ccc;
+            margin: 0;
+            /* text-align: justify; */
+        }
+
+            .content_table {
+            margin: 2px auto 10px;
+            overflow-y: auto;
+       }
+
+            .style3 {
+            color: #FFF;
+            font-weight: bold;
+      }
+
+           .main-frame-container divide {
+           display: inline-block;
+           vertical-align: middle;
+     }
+          .main-frame-container divide upper {
+          border-bottom: 1px solid #222;
+          display: block;
+          text-align: center;
+     }
+         .main-frame-container divide lower {
+         display: block;
+         text-align: center;
+}
+
+        </style>
+        
+    </head>
+    <body>
+        <div class="header" id="header">
+            <div class="container">
+                <div class="row">
+                    <!--Logo-->
+                    <div class="col-md-2 col-sm-12 col-xs-12">
+                        <div class="logo">
+                            <a href="#"><img src="../images/logo.png" alt="BDeducation logo"></a>
+                        </div>
+                    </div>
+                    <!--Header Menu-->
+                    <div class="col-md-9 col-xs-12">
+                        <div class="header-menu">
+                            <ul class="top-menu">
+                                <li><a class="dropdown" data-toggle="dropdown" href="#"><i class="fa fa-bell"></i></a>
+                                    <!--onclick dropdown menu for notification icon-->
+                                   <ul class="dropdown-menu">
+                                        <li>Notification</li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown" data-toggle="dropdown" href="#"><i class="fa fa-envelope"></i></a>
+                                    <!--onclick dropdown menu for message icon-->
+                                   <ul class="dropdown-menu">
+                                        <li>message</li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown" data-toggle="dropdown" href="#"><i class="fa fa-calendar"></i></a>
+                                    <!--onclick dropdown menu for calendar icon-->
+                                   <ul class="dropdown-menu">
+                                        <li>calendar</li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown" data-toggle="dropdown" href="#"><i class="fa fa-user"></i> Admin</a>
+                                    <!--onclick dropdown menu for admin icon-->
+                                   <ul class="dropdown-menu">
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                        <li>Logout</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Language Selector button-->
+                    <div class="col-md-1 col-xs-12">
+                        <div class="language">
+                            <a href="#">English</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content-wrapper">
+            <div class="container special-container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-12">
+                        <!--Sidebar Menu-->
+                        <div class="mainmenu">
+                            <div class="navbar-header">
+                               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                  <span class="sr-only">Toggle navigation</span> 
+                                   <span class="icon-bar"></span>
+                                   <span class="icon-bar"></span>
+                                   <span class="icon-bar"></span>
+                               </button>
+                           </div> 
+                           <div style="height: 1px;" class="navbar-collapse special-nav collapse">
+                               <ul class="nav navbar-nav">
+                                   <li class=""><a data-toggle="collapse" area-expand="true" href="#home1">Chapter 1</a>
+                                       <div id="home1" class="collapse">
+                                          <img class="chapter-cover" src="../images/topic/books_2.png" alt="">
+                                           <a href="#" class="topic-link">topic 1</a>
+                                           <a href="#" class="topic-link">topic 2</a>
+                                           <a href="#" class="topic-link">topic 3</a>
+                                           <a href="#" class="topic-link">topic 4</a>
+                                       </div>
+                                    </li>
+                                   <li class=""><a data-toggle="collapse" area-expand="true" href="#home2" href="#home2">Chapter 2</a>
+                                       <div id="home2" class="collapse">
+                                          <img class="chapter-cover" src="../images/topic/books_2.png" alt="">
+                                           <a href="#" class="topic-link">topic 1</a>
+                                           <a href="#" class="topic-link">topic 2</a>
+                                           <a href="#" class="topic-link">topic 3</a>
+                                           <a href="#" class="topic-link">topic 4</a>
+                                       </div>
+                                    </li>
+                                   <li class="active"><a data-toggle="collapse" area-expand="true" href="#home3">Chapter 3</a>
+                                       <div id="home3" class="collapse in">
+                                          <img class="chapter-cover" src="../images/topic/books_2.png" alt="">
+                                           <a href="#" class="topic-link">topic 1</a>
+                                           <a href="#" class="topic-link">topic 2</a>
+                                           <a href="#" class="topic-link">topic 3</a>
+                                           <a href="#" class="topic-link">topic 4</a>
+                                       </div>
+                                   </li>
+                                   <li class=""><a data-toggle="collapse" area-expand="true" href="#home4">Chapter 4</a>
+                                       <div id="home4" class="collapse">
+                                          <img class="chapter-cover" src="../images/topic/books_2.png" alt="">
+                                           <a href="#" class="topic-link">topic 1</a>
+                                           <a href="#" class="topic-link">topic 2</a>
+                                           <a href="#" class="topic-link">topic 3</a>
+                                           <a href="#" class="topic-link">topic 4</a>
+                                       </div>
+                                    </li>
+                                   <li class=""><a data-toggle="collapse" area-expand="true" href="#home5">Chapter 5</a>
+                                       <div id="home5" class="collapse">
+                                          <img class="chapter-cover" src="../images/topic/books_2.png" alt="">
+                                           <a href="#" class="topic-link">topic 1</a>
+                                           <a href="#" class="topic-link">topic 2</a>
+                                           <a href="#" class="topic-link">topic 3</a>
+                                           <a href="#" class="topic-link">topic 4</a>
+                                       </div>
+                                    </li>
+                                   <li class=""><a data-toggle="collapse" area-expand="true" href="#home6">Chapter 6</a>
+                                       <div id="home6" class="collapse">
+                                          <img class="chapter-cover" src="../images/topic/books_2.png" alt="">
+                                           <a href="#" class="topic-link">topic 1</a>
+                                           <a href="#" class="topic-link">topic 2</a>
+                                           <a href="#" class="topic-link">topic 3</a>
+                                           <a href="#" class="topic-link">topic 4</a>
+                                       </div>
+                                    </li>
+                                   <li class=""><a data-toggle="collapse" area-expand="true" href="#home7">Chapter 7</a>
+                                       <div id="home7" class="collapse">
+                                          <img class="chapter-cover" src="../images/topic/books_2.png" alt="">
+                                           <a href="#" class="topic-link">topic 1</a>
+                                           <a href="#" class="topic-link">topic 2</a>
+                                           <a href="#" class="topic-link">topic 3</a>
+                                           <a href="#" class="topic-link">topic 4</a>
+                                       </div>
+                                    </li>
+                                   <li class=""><a data-toggle="collapse" area-expand="true" href="#home8">Chapter 8</a>
+                                       <div id="home8" class="collapse">
+                                          <img class="chapter-cover" src="../images/topic/books_2.png" alt="">
+                                           <a href="#" class="topic-link">topic 1</a>
+                                           <a href="#" class="topic-link">topic 2</a>
+                                           <a href="#" class="topic-link">topic 3</a>
+                                           <a href="#" class="topic-link">topic 4</a>
+                                       </div>
+                                    </li>
+                                   <li class=""><a data-toggle="collapse" area-expand="true" href="#home9">Chapter 9</a>
+                                       <div id="home9" class="collapse">
+                                          <img class="chapter-cover" src="../images/topic/books_2.png" alt="">
+                                           <a href="#" class="topic-link">topic 1</a>
+                                           <a href="#" class="topic-link">topic 2</a>
+                                           <a href="#" class="topic-link">topic 3</a>
+                                           <a href="#" class="topic-link">topic 4</a>
+                                       </div>
+                                    </li>
+                               </ul>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <!--breadcrumb area-->
+                        <div class="breadcrumb col-xs-12">
+                            <ul class="bradcrumb-area">
+                                <li><i class="fa fa-home"></i>Home</li>
+                                <li>Elements</li>
+                            </ul>
+                        </div>
+                        <!--Main Content Starts here-->
+                        <div class="main-content-box col-xs-12">
+                            <!--Page Heading-->
+                            <div class="main-content-box-top-portion col-xs-12">   
+                                <div class="col-sm-6 col-xs-12">
+                                    <h2>Chapter:3 Content</h2>
+                                </div>
+                                <!--Download Buttons-->
+                                <div class="col-sm-6 col-xs-12">
+                                    <a class="dnld-button" href="#">Reference Book  <i class="fa fa-download"></i></a>
+                                    <a class="dnld-button" href="#">Text Book  <i class="fa fa-download"></i></a>
+                                </div>
+                            </div>
+                            <!-- Choice Large Buttons-->
+                            <div class="large-button-container col-xs-12">
+                                <div class="col-sm-12 col-xs-12">
+                                    <a class="large-button" href="index.html"><span class="icon"><i class="fa fa-book"></i></span><br/><span class="large-button-text">Pre-requisite</span></a>
+
+                                    <a class="large-button active" href="ch3_full_chapter.html"><span class="icon"><i class="fa fa-list-alt"></i></span><br/><span class="large-button-text">Full Chapter</span></a>
+
+                                    <a class="large-button" href="#"><span class="icon"><i class="fa fa-play-circle"></i></span><br/><span class="large-button-text">Video Class</span></a>
+
+                                    <a class="large-button" href="index.html"><span class="icon"><i class="fa fa-rub"></i></span><br/><span class="large-button-text">Theorems</span></a>
+                                    
+                                    <a class="large-button" href="vocabulary.html"><span class="icon"><i class="fa fa-sitemap"></i></span><br/><span class="large-button-text">Diagram</span></a>
+                                
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <a class="large-button" href="paragraph-writing.html"><span class="icon"><i class="fa fa-code"></i></span><br/><span class="large-button-text">Mathematical Problems and Solution</span></a>
+
+                                    <a class="large-button" href="paragraph-writing.html"><span class="icon"><i class="fa fa-list-alt"></i></span><br/><span class="large-button-text">Objective</span></a>
+
+                                    <a class="large-button" href="reading-writing.html"><span class="icon"><i class="fa fa-check-square-o"></i></span><br/><span class="large-button-text">Crerative Question</span></a>
+
+                                    <a class="large-button" href="#"><span class="icon"><i class="fa fa-stack-exchange"></i></span><br/><span class="large-button-text">Chapter Summary</span></a>
+
+                                    <a class="large-button" href="#"><span class="icon"><i class="fa fa-sun-o"></i></span><br/><span class="large-button-text">Technique to Remember</span></a>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <a class="large-button" href="paragraph-writing.html"><span class="icon"><i class="fa fa-copy"></i></span><br/><span class="large-button-text">Previous Questions</span></a>
+
+                                    <a class="large-button" href="paragraph-writing.html"><span class="icon"><i class="fa fa-pie-chart"></i></span><br/><span class="large-button-text">Planning</span></a>
+
+                                    <a class="large-button" href="reading-writing.html"><span class="icon"><i class="fa fa-newspaper-o"></i></span><br/><span class="large-button-text">E-paper</span></a>
+
+                                    <a class="large-button" href="#"><span class="icon"><i class="fa fa-cubes"></i></span><br/><span class="large-button-text">Others</span></a>
+
+                                    <a class="large-button" href="#"><span class="icon"><i class="fa fa-paste"></i></span><br/><span class="large-button-text">Exam/Test</span></a>
+                                </div>
+                                <div class="col-sm-12 col-xs-12">
+                                    <a class="large-button " href="paragraph-writing.html"><span class="icon"><i class="fa fa-list-alt"></i></span><br/><span class="large-button-text">Practice</span></a>
+
+                                    <a class="large-button" href="paragraph-writing.html"><span class="icon"><i class="fa fa-cogs"></i></span><br/><span class="large-button-text">Handwritting</span></a>
+
+                                    <a class="large-button" href="reading-writing.html"><span class="icon"><i class="fa fa-play-circle"></i></span><br/><span class="large-button-text">Photo/Video</span></a>
+                                </div>
+                            </div>
+                            <!--Blocked Area-->
+                            <div class="col-sm-12 col-xs-12">
+                                <div class="status-container">
+                                     <h2><i class="fa fa-list-alt"></i> Full Chapter</h2>
+                                 </div>
+                            </div>
+                            <!--Tabs-->
+                            <div class="main-content-tabs col-xs-12">
+                                <div class="book-content">
+                                    <div  id="part1" class="parts part1 withsidenote">
+                                      <div class="main-frame-container">
+                                          <center><img src="../images/class_6_science_1_bangla/chapter_img.png" width="auto" title="" alt=""></center>
+                                      </div>
+                                    </div>
+
+                                    <div id="part2" class="parts part2 withsidenote">
+                                           <button class="btn btn-primary btn-xs sidenote">Sidenote</button>
+                                           <div class="main-frame-container">
+                                                <div class="row">
+                                                  <div class="col-sm-9">
+                                                      <h2 style="margin-top: 10px; color:#13007C">পরিমাপ কী? এটি কেন গুরুত্বপূর্ণ? </h2>
+                                                      <p align="justify">শিশুরা সবসময় পরিমাপ করে থাকে যেমনঃ “আমার জন্মদিনের কত দিন বাকি?” “আমরা পাঁচ দিনের ছুটিতে যাচ্ছি” প্রভৃতি। এর মধ্যে দৈর্ঘ্য, ওজন, ধারণক্ষমতা, ক্ষেত্রফল, আয়তন, সময়, ঘনত্ব প্রভৃতি বিভিন্ন ধারণা অন্তর্ভুক্ত। শিশুরা কার পুতুল সবচেয়ে বড়, কার পেন্সিল সবচেয়ে বড়, কার বালির দূর্গ কত উঁচু প্রভৃতি নানা রকম আকৃতি বিষয়ক তুলনা করে থাকে। </p>
+                                                  </div>
+                                                  <div class="col-sm-3">
+                                                      <center><img src="../images/class_6_science_1_bangla/1.1.0.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.১.০ </span>পরিমাপ যন্ত্র </p>
+                                                  </div>
+                                                </div>
+                                                      <p align="justify">মাপ-ঝোকের মাধ্যমে কোনো কিছুর পরিমাণ নির্ণয় করাই হলো পরিমাপ। দৈনন্দিন জীবনে নানাবিধ ঘটনায় এই পরিমাপের সাথে আমরা পরিচিত। </p>
+                                           </div>
+                                           <div class="sidenote-container">
+                                               <div class="sidenote-content">
+                                                   <p><strong>ধারণাঃ </strong></p> 
+                                               </div>
+                                           </div>
+                                    </div>
+
+
+                                    <div id="part3" class="parts part3 withsidenote">
+                                           <button class="btn btn-primary btn-xs sidenote">Sidenote</button>
+                                           <div class="main-frame-container">
+                                                      <h2 style="margin-top: 10px; color:#13007C">১.১ বিজ্ঞান কী? </h2>
+                                                      <p align="justify">বিজ্ঞান বলতে বোঝায়- <br>
+                                                      ►পড়াশোনা এবং অনুশীলনের মাধ্যমে অর্জিত জ্ঞান। <br>
+                                                      ►বিভিন্ন পরীক্ষা ও পর্যবেক্ষণের মাধ্যমে প্রকৃতি ও ইহজাগতিক বিশ্ব সম্পর্কে অর্জিত জ্ঞানই হলো বিজ্ঞান।
+                                                      </p>
+                                                <div class="row">
+                                                  <div class="col-sm-9">
+                                                      <h2 style="margin-top: 10px; color:#13007C">বিজ্ঞান বলতে আমরা কি বুঝি? </h2>
+                                                      <p align="justify">বিজ্ঞান বলতে জ্ঞান অর্জনের পদ্ধতি বোঝায়। এই পদ্ধতিতে পরীক্ষা-নিরীক্ষা এবং পর্যবেক্ষণের মাধ্যমে প্রাকৃতিক ঘটনার ব্যাখ্যা দেয়া হয়। বিজ্ঞান এই পদ্ধতিতে অর্জিত সুসংবদ্ধ জ্ঞানকে নির্দেশ করে। সহজ ভাষায় বিজ্ঞান বলতে কোনো সুসংবদ্ধ জ্ঞান অর্জনের ক্ষেত্রে এবং তার থেকে অর্জিত জ্ঞানকে বোঝায়। </p>
+                                                  </div>
+                                                  <div class="col-sm-3">
+                                                      <center><img src="../images/class_6_science_1_bangla/1.1.1.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.১.১ </span>বিজ্ঞান বলতে পদ্ধতিগত জ্ঞান অর্জন এবং তার থেকে প্রাপ্ত জ্ঞানকে বোঝায় </p>
+                                                  </div>
+                                                </div>
+                                                      <h2 style="margin-top: 10px; color:#13007C">বৈজ্ঞানিক প্রক্রিয়ার ধাপঃ </h2>
+                                                      <p align="justify">
+                                                        ১. সমস্যা নির্ধারণঃ তুমি কী জানতে চাও? <br>
+                                                        ২. জানা তথ্য সংগ্রহঃ যতটুকু সম্ভব তথ্য বা উপাত্ত সংগ্রহ কর <br>
+                                                        ৩. সম্ভাব্য ফলাফলঃ সমস্যার সম্ভাব্য সমাধান নির্ণয়ের চেষ্টা কর। এর আরেক নাম ‘অনুমিত সিদ্ধান্ত’। এর শুরু হয় এভাবে “যদি আমি ...... (এটা করি) তাহলে ....... (এটা হবে)। <br>
+                                                        ৪. পরীক্ষণঃ সবচেয়ে মজার অংশ! সম্ভাব্য ফলাফল নিশ্চিত বা বাতিল করতে পরীক্ষণের ব্যবস্থা কর। <br>
+                                                        ৫. উপাত্ত বিশ্লেষণঃ পরীক্ষণ চলাকালীন কী ঘটেছে তা লিপিবদ্ধ কর। এটি উপাত্ত নামে পরিচিত। <br> ৬. সিদ্ধান্তঃ উপাত্ত বিশ্লেশণ করে অনুমিত সিদ্ধান্ত সঠিক কিনা তা যাচাই কর। <br><br>
+
+                                                        নতুন নতুন আবিষ্কারের ক্ষেত্রে সারা বিশ্বে প্রতিনিয়ত এই বৈজ্ঞানিক পদ্ধতি ব্যবহৃত হচ্ছে। 
+                                                      </p>
+                                                      <center><img src="../images/class_6_science_1_bangla/1.1.2.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.১.২ </span>বৈজ্ঞানিক প্রক্রিয়ার ধাপসমূহ </p>
+                                           </div>
+                                           <div class="sidenote-container">
+                                               <div class="sidenote-content">
+                                                   <p><strong>তুমি কী জান?</strong></p> 
+                                                   
+                                               </div>
+                                           </div>
+                                    </div>
+
+                                    <div id="part4" class="parts part4 withsidenote">
+                                           <button class="btn btn-primary btn-xs sidenote">Sidenote</button>
+                                           <div class="main-frame-container">
+                                              
+                                           </div>
+                                           <div class="sidenote-container">
+                                               <div class="sidenote-content">
+                                                   <p><strong>তথ্যঃ </strong></p>
+                                                  
+                                               </div>
+                                           </div>
+                                    </div>
+
+                                    <div id="part5" class="parts part5 withsidenote">
+                                           <button class="btn btn-primary btn-xs sidenote">Sidenote</button>
+                                           <div class="main-frame-container"> 
+
+                                           </div>
+                                           <div class="sidenote-container">
+                                               <div class="sidenote-content">
+                                                   <p><strong>তথ্যঃ </strong></p>
+                                                  
+                                               </div>
+                                           </div>
+                                    </div>
+
+                                    <div id="part6" class="parts part6 withsidenote">
+                                           <button class="btn btn-primary btn-xs sidenote">Sidenote</button>
+                                           <div class="main-frame-container">
+                                                      <h2 style="margin-top: 10px; color:#13007C">১.৬ঃ মৌলিক ও যৌগিক একক </h2>
+                                                      <p align="justify">কোন বস্তুর নির্দিষ্ট বা অনির্দিষ্ট পরিমানের সাংখ্যিক প্রকাশকে রাশি বলা হয়। মৌলিক ভৌত রাশির একককে মৌলিক একক বলে। এরা হলো দৈর্ঘ্য, ভর এবং সময়। এই এককগুলো অন্য একক থেকে পাওয়া যায় না কিংবা অন্য এককে বিভক্ত করা যায় না। এরা প্রত্যেকে স্বয়ংসম্পূর্ণ। অনুরূপভাবে ভর, সময় তাপমাত্রা, বিদ্যুৎ প্রবাহ, আলোক ঔজ্জ্বল্য এবং বস্তুর পরিমাণের একক- এ সবই মৌলিক একক। অন্যদিকে কোনো কোনো রাশিকে পরিমাপ করার জন্য কেবলমাত্র একটি একক দিয়ে এর পরিমাপকে প্রকাশ করা যায় না। শ্রেণীকক্ষের ক্ষেত্রফল পরিমাপের ক্ষেত্রে দুটি এককের গুণফলের উপর নির্ভর করতে হয়। এসব ক্ষেত্রে দুটি এককের সংমিশ্রণের প্রয়োজন হয়। এসকল সমন্বিত একককে যৌগিক বা লব্ধ একক বলে। যেমনঃ ক্ষেত্রফলের একক হলো দৈর্ঘ্য ও প্রস্থের একক দিয়ে গঠিত। অনুরূপভাবে আয়তনের একক হলো কোনো বস্তুর দৈর্ঘ্য, প্রস্থ ও উচ্চতার এককের গুণফল। যে কোন ভৌত রাশির একককে তার সংজ্ঞা প্রদানকারী সমীকরণ থেকে পাওয়া যায়। 
+                                                      </p>
+                                                      <p><i>&nbsp;&nbsp;  যেমন,গতি</i> &nbsp; = <divide><upper>অতিক্রান্ত দূরত্ব</upper><lower>নির্ধারিত সময়</lower></divide></p>
+
+                                                      <p>গতির একক &nbsp; = <divide><upper>দূরত্বের একক </upper><lower>সময়ের একক </lower></divide></p>
+
+                                                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = <divide>
+
+                                                        <upper>মিটার (meter) </upper>
+                                                        <lower>সেকেন্ড (second) </lower></divide></p>
+                                                      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = <sub>ms</sub>-1</p>
+                                                      <p align="justify">সুতরাং, গতির একক হচ্ছে মিটার/সেকেন্ড (m/s) যা একটি যৌগিক একক। </p>
+                                                      <h4 style="color: #13007C">এককের আন্তর্জাতিক পদ্ধতি (এস.আই.একক) </h4>
+                                                      <p align="justify">সারা বিশ্বে বহুল প্রচলিত এবং বহুল ব্যবহৃত সাধারণ পরিমাপ পদ্ধতি হলো ইন্টারন্যাশনাল সিস্টেম অব ইউনিট। এটার সংক্ষিপ্ত রূপ “আই এস ও ইউ” নয় বরং “এস আই” একক। এস এবং আই বর্ণ দুটি ফরাসি ভাষা থেকে এসেছে যার অর্থ ইন্টারন্যাশনাল সিস্টেম অব ইউনিট (ঐতিহাসিক ভাবে ফরাসিরা এককের সর্বস্বীকৃত পদ্ধতি প্রচলনের ব্যাপারে সক্রিয় ছিল)। <br>
+
+                                                      ১৯৬০ সাল পৃথিবীর সব দেশে এককের সাধারণ পদ্ধতি চালু হয়। এস. আই পদ্ধতিতে সাতটি ভৌত রাশির একক নির্ধারণ করা হয়েছে। এদেরকে মৌলিক একক বলে। অন্য এককগুলো এদের থেকে তৈরী। সাতটি মৌলিক একক হলো-
+                                                      </p>
+        <div class="content_table" style="width:65%; ">
+          <table border="1" style="width:95%;"">
+                    <tr>
+                      <td width="59%" bordercolor="#890C08" bgcolor="#890C08" class="style3" padding: 5px;>মৌলিক রাশি </td>
+                      <td width="22%" bordercolor="#890C08" bgcolor="#890C08"><div align="center" padding: 5px;><span class="style3">একক</span></div></td>
+                      <td width="19%" bordercolor="#890C08" bgcolor="#890C08"><div align="center" padding: 5px;><span class="style3">প্রতীক</span></div></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#FFBF00"><strong>দৈর্ঘ্য (<i> l )</i></strong></td>
+                      <td bgcolor="#FFBF00"><div align="center"><strong>মিটার </strong></div></td>
+                      <td bgcolor="#FFBF00"><div align="center"><strong>m</strong></div></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#ECD095"><strong>ভর <i>( m )</i></strong></td>
+                      <td bgcolor="#ECD095"><div align="center"><strong>কিলোগ্রাম </strong></div></td>
+                      <td bgcolor="#ECD095"><div align="center"><strong>kg</strong></div></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#C7E9B9"><strong>সময় <i>( t )</i></strong></td>
+                      <td bgcolor="#C7E9B9"><div align="center"><strong>সেকেন্ড </strong></div></td>
+                      <td bgcolor="#C7E9B9"><div align="center"><strong>s</strong></div></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#A3DDEA"><strong>বিদ্যুৎ প্রবাহ <i>( I )</i></strong></td>
+                      <td bgcolor="#A3DDEA"><div align="center"><strong>অ্যাম্পিয়ার </strong></div></td>
+                      <td bgcolor="#A3DDEA"><div align="center"><strong>A</strong></div></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#D2ADD4"><strong>তাপমাত্রা (তাপ গতিবিদ্যা) <i>( T )</i></strong></td>
+                      <td bgcolor="#D2ADD4"><div align="center"><strong>কেলভিন</strong></div></td>
+                      <td bgcolor="#D2ADD4"><div align="center"><strong>K</strong></div></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#C2B59D"><strong>পদার্থের পরিমাপ <i>( n )</i></strong></td>
+                      <td bgcolor="#C2B59D"><div align="center"><strong>মোল</strong></div></td>
+                      <td bgcolor="#C2B59D"><div align="center"><strong>mol</strong></div></td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#A8B3D6"><strong>আলোর তীব্রতা <i>( Iv )</i></strong></td>
+                      <td bgcolor="#A8B3D6"><div align="center"><strong>ক্যান্ডেলা </strong></div></td>
+                      <td bgcolor="#A8B3D6"><div align="center"><strong>cd</strong></div></td>
+                    </tr>
+                  </table>
+        </div>
+                                                      <h4 style="color: #13007C">দৈর্ঘ্যের এককঃ </h4>
+                                                      <p align="justify">বর্তমানে দৈর্ঘ্যরে পরিমাপের জন্য এককের আন্তর্জাতিক পদ্ধতি ব্যবহৃত হয়। এই পদ্ধতিতে দৈর্ঘ্যের একক মিটার। ১৮৭৫ সালে বিভিন্ন দেশের বিজ্ঞানীরা একত্রে বসে এক মিটারের দৈর্ঘ্য নির্ণয় করেন। তারা প্লাটিনাম ইরিডিয়াম নামক মিশ্রিত ধাতুর একটি দন্ড তৈরী করেন এবং এর দুই প্রান্তে দুটি দাগ দেন। শূণ্য ডিগ্রী সেলসিয়াস তাপমাত্রায় বিন্দু দুটির দূরত্বকেই তারা এক মিটার হিসেবে নির্ধারণ করেন। </p>
+
+                                                      <h4 style="color: #13007C">দৈর্ঘ্যের এককের গুণিতক ও ভগ্নাংশঃ </h4>
+                                                      <p align="justify">বর্তমানে দৈর্ঘ্যের পরিমাপের জন্য এককের আন্তর্জাতিক পদ্ধতি ব্যবহৃত হয়। এই কাপড়, টেবিল অথবা কক্ষের দৈর্ঘ্য পরিমাপের সময় আমরা একক হিসেবে মিটারকে ব্যবহার করি। কিন্তু পেন্সিলের দৈর্ঘ্য পরিমাপে আমরা সেন্টিমিটার  (সে.মি.) ব্যবহার করি। আবার মুদ্রার গুরুত্ব নির্ণয়ে এর থেকেও ক্ষুদ্র একক ব্যবহৃত হয় যা মিলিমিটার (মি.মি.) নামে পরিচিত।<br>
+
+                                                      অন্যদিকে বেশী দূরত্ব পরিমাপের ক্ষেত্রে (যেমনঃ ঢাকা থেকে সিলেটের দূরত্ব) আমরা কিলোমিটার (কি.মি.) একক ব্যবহার করি। </p>
+
+                                           <div style="border: 2px solid #890C08; padding: 0 20px; width: 55%; margin: auto; text-align: left; background: #FFFFD6;" >
+                                                      <p style="color:#890C08; font-size: 20px;"><strong>১ কিলোমিটার (কি.মি) = ১,০০০ মিটার (মি.) </strong></P>
+                                                      <p style="color:#890C08; font-size: 20px;"><strong>১ মিটার (মি.) = ১০০ সেন্টিমিটার (সে.মি.) </strong></P>
+                                                      <p style="color:#890C08; font-size: 20px;"><strong>১ সেন্টিমিটার (সে.মি.) = ১০ মিলিমিটার (মি.মি) </strong></P>
+                                           </div>
+                                           </div>
+                                           <div class="sidenote-container">
+                                               <div class="sidenote-content">
+                                                   <p><strong>পরিমাপের উৎসঃ </strong></p>
+                                                   <p align="justify">প্রাচীনকালে পরিমাপে দেহের বিভিন্ন অঙ্গ ব্যবহৃত হত। পায়ের দৈর্ঘ্য, আঙ্গুলের প্রস্থ, পদক্ষেপ অতিক্রান্ত দূরত্ব- সবই ছিল গ্রহণযোগ্য পরিমাপ। <br><br>
+
+
+                                                   <strong>ইঞ্চিঃ </strong>প্রথমে  ইঞ্চি বলতে একজন পুরুষের বুড়ো আঙ্গুলের প্রস্থকে বোঝাতো। ১৪ শতকে  রাজা এডওয়ার্ডও ও ঘোষণা করেন ১ ইঞ্চি হলো ৩টি সাগুর দানা পাশাপাশি রাখলে যে দৈর্ঘ্য হয়। <br><br>
+
+                                                   <strong>হাতঃ </strong>এক হাত বলতে প্রায় ৫ ইঞ্চি বা বরাবর ৫ আঙ্গুলকে বোঝায়। বর্তমানে, এক হাত সমান ৪ ইঞ্চি এবং ঘোড়ার উচ্চতা মাপতে (মাটি থেকে ঘাড় পর্যন্ত) ব্যবহৃত হয়। <br><br>
+
+                                                   <strong>স্থানঃ </strong>হাত মেলালে প্রায় ৯ ইঞ্চির মত যে দৈর্ঘ্য হয় তাকে স্থান বলে। <br><br>
+
+                                                   <strong>ফুটঃ </strong>প্রাচীনকালে ফুট সমান ১১১/৪২ ইঞ্চি ছিল। বর্তমানে ১২ ইঞ্চিতে (গড় পরতা মানুষের পায়ের দৈর্ঘ্য) এক ফুট। <br><br>
+
+                                                   <strong>গজঃ </strong>গজ বা ইয়ার্ড বলতে বেল্টের দৈর্ঘ্য বোঝানো হত। ১২ শতাব্দীতে ইংল্যান্ডের রাজা হেনরী ও ঘোষণা করেন তার নাকের ডগা থেকে তার প্রসারিত বাহুর বৃদ্ধাঙ্গুলি পর্যন্ত হলো ১ গজ। বর্তমানে এটি ৩৬ ইঞ্চি। <br><br>
+
+                                                   <strong>কিউবিটঃ </strong>প্রাচীন মিশরে কনুই থেকে আঙ্গুলের ডগা পর্যন্ত দূরত্বকে কিউবিট বলা হতো। বর্তমানে কিউবিট ১৮ ইঞ্চি। <br><br>
+
+                                                   <strong>লিকঃ </strong>বৃদ্ধাঙ্গুলির অগ্রভাগ থেকে তর্জনীর অগ্রভাগ পরিমাপে গ্রীকরা লিক ব্যবহার করত। <br><br>
+
+                                                   <strong>পেসঃ </strong>প্রাচীন রোমের সৈন্যরা পেস চলত যা দুটি পদক্ষেপের সমান অর্থাৎ ৫ ফিট ছিল। ১,০০০ সেপ সমান এক মাইল। বর্তমানে, এক পেসের দৈর্ঘ্য এক পদক্ষেপের সমান, ২.৫ থেকে ৩ ফিট। <br><br>
+                                                   </p>
+                                               </div>
+                                           </div>
+                                    </div>
+
+                                    <div id="part7" class="parts part7 withsidenote">
+                                           <div class="main-frame-container">
+                                                      <h2 style="margin-top: 10px; color:#13007C">১.৭ ভরের এককঃ </h2>
+                                                      <p align="justify">আমাদের দৈনন্দিন জীবনে পরিমাপ গুরুত্বপূর্ণ ভূমিকা রাখে। কেননা সাধারণ কাজে যেমন- থার্মোমিটারে জ্বর পরিমাপ, সময় নির্ণয়, বিভিন্ন বস্তুর ওজন, ক্ষেত্রফল এবং আয়তন প্রভৃতি নির্ণয়ে এর ব্যবহার রয়েছে। এছাড়াও এমনকি রান্নার ক্ষেত্রে ওজন পরিমাপে অথবা ওভেনে খাদ্য প্রস্তুতের সময় তাপমাত্রা পর্যবেক্ষণেও পরিমাপ ব্যবহৃত হয়। </p>
+
+                                                 <div style="border: 2px solid #890C08; padding: 0 20px; width: 75%; margin: auto; text-align: left; background: #FFFFD6;" >
+                                                      <p style="color:#890C08; font-size: 20px;"><strong>১ মেট্রিক টন = ১০ কুইন্টাল &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ১ কুইন্টাল = ১০০কিলোগ্রাম </strong></P>
+
+                                                      <p style="color:#890C08; font-size: 20px;"><strong>১ কুইন্টাল = ১০০কিলোগ্রাম &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ১ গ্রাম = ১০০০ মিলিগ্রাম </strong></P>
+                                                 </div>
+
+                                                      <br><h4 style="color: #13007C">সময়ের এককঃ </h4>
+                                                      <p align="justify">সকল পদ্ধতিতে সময় পরিমাপের একক হলো সেকেন্ড। তবে দৈনন্দিন জীবনে সেকেন্ডের চেয়ে এর গুণিতাংশের এককগুলো ব্যাপকভাবে ব্যবহার করা হয়। যেমনঃ মিনিট, ঘন্টা, দিন, মাস, বছর ইত্যাদি। পৃথিবী নিজ অক্ষের চারপাশে ঘুরে এসে একই অবস্থায় পুনরায় ফিরে আসতে যে সময় লাগে, তা হলো ১ দিন। একদিনের ২৪ ভাগের এক ভাগ হলো ১ ঘন্টা। ১ ঘন্টার ৬০ ভাগের ১ ভাগ হলো ১ মিনিট। ১ মিনিটের ৬০ ভাগের ১ ভাগই হলো আমাদের মৌলিক একক সেকেন্ড।</p>
+                                                      <center><img src="../images/class_6_science_1_bangla/1.7(1).png" width="auto" title="" alt=""></center><br>
+
+                                                 <div style="border: 2px solid #890C08; padding: 0 20px; width: 100%; margin: auto; text-align: center; background: #FFFFD6;" >
+                                                      <p style="color:#890C08; font-size: 20px;"><strong>সুতরাং, ১ দিন = ২৪ ঘন্টা; &nbsp;&nbsp; ১ ঘন্টা = ৬০ মিনিট, &nbsp;&nbsp; ১ মিনিট = ৬০ সেকেন্ড </strong></P> 
+                                                 </div>
+                                                      <p class="caption"><span class="title">চিত্র ১.৭.১ </span>বিভিন্ন যন্ত্র যা সময়ের হিসাব রাখতে সহায়তা করে </p>
+                                           </div>
+                                           
+                                    </div>
+
+                                    <div id="part8" class="parts part8 withsidenote">
+                                           <div class="main-frame-container">
+                                                <div class="row">
+                                                  <div class="col-sm-9">
+                                                      <h2 style="margin-top: 10px; color:#13007C">১.৮-১.৯ দৈর্ঘ্যরে পরিমাপঃ </h2>
+                                                      <p align="justify"><strong>কাজঃ </strong>প্রথমে সাদা কাগজে একটি সরল রেখা টানো। এবার রেখাটির উপর একটি রুলার স্থাপন কর। খেয়াল রাখতে হবে তোমার চোখের অবস্থান যেন সঠিক থাকে। এভাবে রেখাটির দৈর্ঘ্য পরিমাপ করতে হবে। </p>
+                                                  </div>
+                                                  <div class="col-sm-3"><br><br>
+                                                      <center><img src="../images/class_6_science_1_bangla/1.8.1.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.৮.১ </span>দৈর্ঘ্যের পরিমাপ </p>
+                                                  </div>
+                                                </div>
+                                           </div>
+                                           <div class="main-frame-container">
+                                                <div class="row">
+                                                  <div class="col-sm-9">
+                                                      <p align="justify"><strong>কাজঃ </strong> মুদ্রা একত্রে রেখে চিত্রের মতো কর এবং এর উচ্চতা নির্ণয় কর।<br>সর্বমোট মূদ্রা = <br>
+                                                      মোট উচ্চতা = <br>
+                                                      একটি মুদ্রার পুরুত্ব =
+
+                                                      </p>
+                                                  </div>
+                                                  <div class="col-sm-3">
+                                                      <center><img src="../images/class_6_science_1_bangla/1.8.2.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.৮.১ </span>দৈর্ঘ্যের পরিমাপ </p>
+                                                  </div>
+                                                </div>
+                                           </div>
+
+                                           <div class="main-frame-container">
+                                                <div class="row">
+                                                  <div class="col-sm-9">
+                                                      <h4 style="color: #13007C">ভরের পরিমাপঃ </h4>
+                                                      <p align="justify"><strong>কাজঃ </strong>পাল্লার বামদিকে একটি ১৫০ গ্রামের একটি বাটখারা রাখ। এবার ডানদিকে একটির পর একটি মার্বেল দিতে থাক যতক্ষণ না বাম ও ডান দিকের পাল্লা সাম্যবস্থায় আসে। <br><br>
+                                                      ১৫০ গ্রাম = ............ টি মার্বেল<br> 
+                                                      অতএব ১টি মার্বেলের ভর = ............ গ্রাম
+                                                      </p>
+                                                  </div>
+                                                  <div class="col-sm-3"><br><br>
+                                                      <center><img src="../images/class_6_science_1_bangla/1.8.3.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.৮.৩ </span>ভরের পরিমাপ </p>
+                                                  </div>
+                                                </div>
+                                           </div>
+
+                                           <div class="main-frame-container">
+                                                <div class="row">
+                                                  <div class="col-sm-9">
+                                                      <h4 style="color: #13007C">সময়ের পরিমাপঃ </h4>
+                                                      <p align="justify"><strong>কাজঃ </strong>ছবির মতো স্কুলের সামনের মাঠে রোদের মধ্যে একটি লাঠি খাড়া করে বসিয়ে দাও। লক্ষ্য করলে দেখবে খাড়া কাঠিটির ছায়া পড়েছে। ঐ ছায়ার প্রান্তে এবার একটি দাগ দাও এবং ঘড়ি দেখে সময় লিখে রাখ। এভাবে প্রতি ঘন্টা পর পর দাগ দিয়ে একটি সূর্যঘড়ি তৈরী  কর এবং সময়গুলোর হিসাব রাখ এই সূর্যঘড়ির সাহায্যে ছায়ার অবস্থান দেখে সময় বলে দেয়া যায়। <br><br>
+                                                      </p>
+                                                  </div>
+                                                  <div class="col-sm-3"><br><br>
+                                                      <center><img src="../images/class_6_science_1_bangla/1.9.1.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.৯.১ </span>সূর্য ঘড়ি </p>
+                                                  </div>
+                                                </div>
+                                           </div>
+
+                                    </div>
+
+                                    <div id="part9" class="parts part9 withsidenote">
+                                           <div class="main-frame-container">
+                                                <div class="row">
+                                                  <div class="col-sm-9">
+                                                      <h2 style="margin-top: 10px; color:#13007C">১.১০ ক্ষেত্রফল ও তার পরিমাপঃ </h2>
+                                                      <p align="justify">ক্ষেত্রফল বলতে কোন আকারের অধীনে কতটুকু জায়গা রয়েছে তার পরিমাপ বোঝায়। দৈনন্দিন জীবনে কোন আকৃতি বা তলের ক্ষেত্রফল নির্ণয়ের প্রয়োজনীয়তা রয়েছে। যেমনঃ একটি দেয়াল রঙ করতে কতটুকু রঙ কিনতে হবে অথবা মাঠে ঘাস লাগাতে কী পরিমাণ ঘাসের বীজ প্রয়োজন তা জানা লাগতে পারে। ক্ষেত্রফল পরিমাপের মাধ্যমে তুমি টেবিলের তল এবং কক্ষের মেঝে কতটুকু জায়গা দখল করেছে তা দেখাতে পারবে। ক্ষেত্রফলের একক বর্গমিটার (মি<sup>2</sup>) </p>
+
+                                                      <div style="border: 2px solid #890C08; padding: 0 20px; width: 40%; margin: auto; text-align: left; background: #FFFFD6;" >
+                                                      <p style="color:#890C08; font-size: 20px;"><strong>ক্ষেত্রফল = দৈর্ঘ্য x প্রস্থ</strong></P>
+ 
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-sm-3"><br><br>
+                                                      <center><img src="../images/class_6_science_1_bangla/1.10.1.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.১০.১ </span> </p>
+                                                  </div>
+                                                </div>
+                                           </div>
+
+                                    </div>
+
+                                    <div id="part10" class="parts part10 withsidenote">
+                                           <div class="main-frame-container">
+                                                <div class="row">
+                                                  <div class="col-sm-9">
+                                                      <h2 style="margin-top: 10px; color:#13007C">১.১১ আয়তন ও তার পরিমাপঃ </h2>
+                                                      <p align="justify">আয়তন হলো আবদ্ধ তল দ্বারা সীমাবদ্ধ কোনো ত্রিমাত্রিক স্থানের পরিমাণ। যেমনঃ যে স্থানে কোন বস্তু (কঠিন, তরল, বায়বীয় বা প্লাজমা) বা আকৃতি দখল বা ধারণ করে। আন্তর্জাতিক পদ্ধতিতে আয়তনের এককের নাম ঘনমিটার। ১ মিটার দৈর্ঘ্য, ১ মিটার প্রস্থ ও ১ মিটার উচ্চতা বিশিষ্ট একটি   ঘনক বা ঘনক্ষেত্র যে যায়গা দখল করে তা হলো ১ ঘনমিটার (m<sup>3</sup>)। </p>
+
+                                                      <div style="border: 2px solid #890C08; padding: 0 20px; width: 70%; margin: auto; text-align: left; background: #FFFFD6;" >
+                                                      <p style="color:#890C08; font-size: 20px;"><strong>১ ঘন মিটার = ১  মিটার x ১  মিটার x ১  মিটার</strong></P>
+ 
+                                                      </div>
+                                                  </div>
+                                                  <div class="col-sm-3"><br><br>
+                                                      <center><img src="../images/class_6_science_1_bangla/1.11.1.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.১১.১ </span> </p>
+                                                  </div>
+                                                </div>
+
+                                                      <p align="justify">সজিএস পদ্ধতিতে আয়তনের একক ঘন সেন্টিমিটার। সংক্ষেপে একে সিসি (Cubic Centimetre) বলা হয়।<br> 
+                                                      তরল পদার্থের আয়তন লিটারে মাপা হয়। ১০০০ সিসি = ১ লিটার। ১ সিসিকে ১ মিলিলিটারও বলা হয়। <br> সুতরাং, ১ লিটার = ১০০০ সিসি = ১০০০ মিলিলিটার। </p>
+
+                                                      <div style="border: 2px solid #890C08; padding: 0 20px; width: 70%; margin: auto; text-align: left; background: #FFFFD6;" >
+                                                      <p style="color:#890C08; font-size: 20px;"><strong>আয়তন = ক্ষেত্রফল x উচ্চতা = দৈর্ঘ্য (<i>l</i> ) x প্রস্থ (<i>b</i> ) x উচ্চতা (<i>h</i> )</strong></P>
+                                                      </div><br>
+
+
+                                                <div class="row">
+                                                  <div class="col-sm-8">
+                                                      <h4 style="color: #13007C">বিভিন্ন আকারের কঠিন বস্তুর আয়তন পরিমাপঃ </h4>
+                                                      <p align="justify">অনিয়মিত আকৃতিবিশিষ্ট কঠিন পদার্থের আয়তন নির্ণয়ে পানির অপসারণ পদ্ধতি ব্যবহার করা হয়। পরিমাপ ফ্লাস্কের পানিতে বোনো বস্তু যোগ করলে পানির স্তুরের উচ্চতা বৃদ্ধি পায়। এটি ঘটে কেননা বস্তুটি পানিকে নিজের আয়তন দিয়ে অপসারিত করে তার স্থান দখল করে। বস্তুটির দ্বারা অপসারিত পানির আয়তন বস্তুটির আয়তনের সমান।<br>
+
+                                                      ১ মি.লি.  ১ সে.মি<sup>৩</sup> এর সমান হওয়ায় বস্তু দ্বারা অপসারিত পানির আয়তনকে ঘন সেন্টিমিটারে প্রকাশ করা যায়। বস্তুটি যদি ভাসে, তবে সরু সূচালো যন্ত্র নিয়ে বস্তুটিকে ডুবিয়ে রাখতে হবে যতক্ষণ না এটি পানি দ্বারা সম্পূর্ণ আচ্ছাদিত হয়। 
+                                                       </p>
+                                                  </div>
+                                                  <div class="col-sm-4"><br><br>
+                                                      <center><img src="../images/class_6_science_1_bangla/1.11.2.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.১১.১ </span> </p>
+                                                  </div>
+                                                </div>
+
+
+                                                      <p align="justify">এরপর এটি পরিমাপ করতে হবে।  চিত্রে দেখা যাচ্ছে কীভাবে পানি বস্তু দ্বারা প্রতিস্থাপিত হচ্ছে। বস্তু রাখার আগে ও পরে যদি পানির স্তরের উচ্চতা মাপা হয় তবে তাদের পার্থক্যই হবে বস্তুগুলোর আয়তন। পরিমাপক যন্ত্র না থাকলে স্বাভাবিক আকার বিশিষ্ট বস্তুর ক্ষেত্রেও এই পন্থা ব্যবহার করা যেতে পারে। চিত্রের প্রথম উদাহরণে দেখা যায়, চকের টুকরো ব্যবহারের পর পরিমাপক ফ্লাক্সের পানির উচ্চতা বেড়ে ১৯ মি.লি. থেকে ২৯ মি.লি এ দাঁড়িয়েছে। অর্থাৎ চকের টুকরো ১০ মি.লি পানি অপসারণ করেছে এবং বস্তুটির আয়তনও ১০ মি.লি.।এই সংখ্যা সর্বশেষ আয়তনের পরিমাপ (২৯ মি.লি.) থেকে প্রাথমিক পানির আয়তন (১৯ মি.লি.) বিয়োগ করে পাওয়া গেছে। এখন তুমি উদাহরণে উল্লেখিত আঙটির আয়তন নির্ণয় কর। <br><br>
+                                                      <strong>সাবধানতাঃ </strong>মাপচোঙের পাঠ নেয়ার সময় সাবধানতা অবলম্বন করতে হবে। প্রথমত, মাপচোঙকে একটি সমতল ক্ষেত্রের উপর সোজা রাখতে হবে। দ্বিতীয়ত, পাঠ নেয়ার সময় চোখকে পানির সমান্তরালে নিয়ে যেতে হবে। 
+                                                      </p>
+
+                                           </div>
+
+                                    </div>
+
+                                    <div id="part11" class="parts part11 withsidenote">
+                                           <div class="main-frame-container">
+                                                <div class="row">
+                                                  <div class="col-sm-8">
+                                                      <h2 style="margin-top: 10px; color:#13007C">১.১২ তরল পদার্থের আয়তন নির্ণয়ঃ </h2>
+                                                      <p align="justify">তরল পদার্থের আয়তন নির্ণয়ের জন্য আমরা সাধারণত দাগঙ্কিত মাপচোঙ ব্যবহার করি। <br><br>
+                                                      <strong>কাজঃ </strong>মাপচোঙটি পছন্দমতো পরিমাণ পানি দিয়ে পূর্ণ কর এবং প্রাপ্ত মানটি লিখ। </p>
+
+                                                  </div>
+                                                  <div class="col-sm-4">
+                                                      <center><img src="../images/class_6_science_1_bangla/1.12.1.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.১২.১ </span>মাপচোঙ </p>
+                                                  </div>
+                                                </div>
+
+                                                <div class="row">
+                                                  <div class="col-sm-8">
+                                                      <h4 style="color: #13007C">তাপমাত্রার পরিমাপঃ </h4>
+                                                      <p align="justify">তাপমাত্রা হচ্ছে কোন বস্তু কতটুকু ঠান্ডা বা গরম তার পরিমাপ। কোনো বস্তুর উষ্ণতার নির্ভরশীল পরিমাপ হলো তাপমাত্রা। তাপমাত্রা সাধারণত থার্মোমিটার ব্যবহার করে পরিমাপ করা হয়। তাপমাত্রা পরিমাপের বিভিন্ন মাপকাঠি রয়েছে। আমেরিকানরা সাধারণত ফারেনহাইট স্কেল ব্যবহার করে। পৃথিবীর অন্যান্য দেশগুলোতে সেলসিয়াস স্কেল ব্যবহৃত হয়। মানবদেহের তাপমাত্রা ডাক্তারী থার্মোমিটার ব্যবহার করে পরিমাপ করা হয়। মানবদেহের স্বাভাবিক তাপমাত্রা হচ্ছে ৯৮.৬০ ফারেনহাইট যা কিনা ৩৭০ সেন্টিগ্রেডের সমান। ১০০০ সেন্টিগ্রেডে পানি ফুটতে শুরু করে (বাষ্পে পরিণত হতে শুরু করে)। ০০ সেন্টিগ্রেডে পানি জমতে শুরু করে (বরফে পরিণত হয়)। প্রত্যেকটি বস্তু অণু দিয়ে তৈরী (কঠিন, তরল এবং বায়বীয়)। তাপমাত্রা বৃদ্ধির সাথে সাথে বস্তুর অণুগুলো অধিক গতিতে বাড়তে শুরু করে। তাপমাত্রা কমতে থাকলে বস্তুর কণাগুলো শক্তি হারায় এবং এদের গতি কমতে শুরু করে। তাপমাত্রা এবং তাপ এক নয়। </p>
+
+                                                  </div>
+                                                  <div class="col-sm-4"><br><br>
+                                                      <center><img src="../images/class_6_science_1_bangla/1.12.2.png" width="auto" title="" alt=""></center>
+                                                      <p class="caption"><span class="title">চিত্র ১.১২.২ </span>থার্মোমিটার </p>
+                                                  </div>
+                                                </div>
+                                                      <p align="justify"><strong>কাজঃ </strong>প্রথমে একটি ডাক্তারী থার্মোমিটার নাও। এবার এর সাহায্যে কীভাবে তাপমাত্রা নির্ণয় করতে হয় তা বুঝে নাও। সাধারণত থার্মোমিটারে ৯৪-১০৮ পর্যন্ত ফারেনহাইট স্কেলে দাগাঙ্কিত থাকে। কোনো কোনো থার্মোমিটারে আবার একই সাথে ৩৫-৪২ পর্যন্ত সেলসিয়াস স্কেলে দাগাঙ্কিত থাকে। এবার লক্ষ্য করলে দেখবে থার্মোমিটারের ভিতরে একটি পারদ স্তম্ভ দেখা যাচ্ছে। এটি তাপমাত্রা বৃদ্ধির সাথে সাথে উপরে উঠতে থাকে। এবার তুমি থার্মোমিটারকে হাতের নিচে বা জিহ্বার নিচে রেখে দিলে ১ মিনিট পর দেখতে পাবে পারদ স্তম্ভের উচ্চতার কোনো পার্থক্য হয়েছে  কিনা? এ থেকে তুমি তোমার গায়ের তাপমাত্রা পরিমাপ করতে পারবে। </p>
+
+                                           </div>
+
+                                    </div>
+
+                                    <div id="part12" class="parts part12 withsidenote">
+                                           <div class="main-frame-container">
+                                                <h4 style="color:#13007C; text-align: center;">সারমর্ম </h4>
+                                                <h4 style="color:#13007C; text-align: center;">সংজ্ঞা </h4>
+                                                  <p align="justify"><strong style="color:#13007C">পরিমাপঃ </strong><br> একটি সংখ্যা যা কোনো কিছুর আকার বা পরিমাণ বোঝায়। সাধারণত, সংখাটি কোনো পরিমাপের একক যেমন মিটার বা কিলোগ্রাম হিসেবে লেখা হয়। </p>
+
+                                                  <p align="justify"><strong style="color:#13007C">বিজ্ঞানঃ </strong><br>বিভিন্ন পরীক্ষা ও পর্যবেক্ষণের মাধ্যমে প্রকৃতি ও ইহজাগতিক বিশ্ব সম্পর্কে অর্জিত জ্ঞান-ই হলো বিজ্ঞান।<br><br>
+                                                  <strong style="color:#13007C">বৈজ্ঞানিক প্রক্রিয়ার ধাপসমূহঃ </strong><br>
+                                                  ১) সমস্যা নির্ধারণ <br>
+                                                  ২) জানা তথ্য সংগ্রহ <br>
+                                                  ৩) সম্ভাব্য ফলাফল <br>
+                                                  ৪) পরীক্ষণ <br>
+                                                  ৫) উপাত্ত বিশ্লেষণ <br>
+                                                  ৬) সিদ্ধান্ত <br>
+                                                  </p>
+
+                                                  <p align="justify"><strong style="color:#13007C">রাশিঃ </strong><br> কোন বস্তুর নির্দিষ্ট বা অনির্দিষ্ট পরিমানের সাংখ্যিক প্রকাশকে রাশি বলা হয়। </p>
+
+
+                                                  <p align="justify"><strong style="color:#13007C">মৌলিক এককঃ </strong><br> মৌলিক ভৌত রাশির এককগুলোকে মৌলিক একক বলে। এরা হলো দৈর্ঘ্য, ভর এবং সময়। এই এককগুলো অন্য একক থেকে উদ্ভুতও হয় না কিংবা অন্য এককে বিভক্তও করা যায় না। এরা স্বয়ংসম্পূর্ণ। </p>
+
+                                                  <p align="justify"><strong style="color:#13007C">যৌগিক এককঃ </strong><br> ভৌত রাশির এককগুলো মৌলিক একক হিসেবে প্রকাশ করা যায় এবং এ ধরণের একককে যৌগিক একক বলে। ক্ষেত্রফলের একক যৌগিক এককের একটি উদাহরণ খ যদি বর্গের দৈর্ঘ্য হয় তবে ক x ক=ক<sup>২</sup> হবে এর ক্ষেত্রফল। একইভাবে, একটি ঘনকের আয়তন খ x খ x খ= খ<sup>৩</sup>। যে কোন ভৌত রাশির একক তার সংজ্ঞা প্রদানকারী সমীসরণ থেকে নির্ণয় করা যায়।  </p>
+
+                                                  <p align="justify"><strong style="color:#13007C">এককের আন্তর্জাতিক পদ্ধতি (এস.আই একক): </strong><br>১৯৬০ সালে পৃথিবীর সকল দেশের জন্য একটি সাধারণ একক ব্যবস্থা চালু করা হয়। এটিই ইন্টারন্যাশনাল সিস্টেম অব ইউনিট বা এস.আই. নামে পরিচিত। এই পদ্ধতিতে একটি নির্দিষ্ট ভৌত রাশির জন্য একটি এককই বরাদ্দ। </p>
+
+                                                  <p align="justify"><strong style="color:#13007C">গুরুত্বপূর্ণ সূত্রসমূহ </strong><br>
+                                                  ক্ষেত্রফল = দৈর্ঘ্য x প্রস্থ <br>
+                                                  আয়তন = ক্ষেত্রফল x উচ্চতা = দৈর্ঘ্য x প্রস্থ x উচ্চতা 
+
+                                                  </p>
+
+                                                  <p align="justify"><strong style="color:#13007C">গুরুত্বপূর্ণ বহুল ব্যবহৃত রুপান্তর </strong><br> ১ কিলোমিটার (কি.মি) = ১০০০ মিটার (মি.) <br>
+                                                  ১ মিটার (মি.) = ১০০ সেন্টিমিটার (সে.মি.) <br>
+                                                  ১ সেন্টিমিটার (সে.মি.) = ১০ মিলিমিটার (মি.মি.) <br>
+                                                  ১ মেট্রিক টন = ১০ কুইন্টাল <br>
+                                                  ১ কুইন্টাল = ১০০ কিলোগ্রাম <br>
+                                                  ১ কিলোগ্রাম = ১০০০ গ্রাম <br>
+                                                  ১ গ্রাম = ১০০০ মিলিগ্রাম <br>
+                                                  ১ দিন = ২৪ ঘন্টা <br>
+                                                  ১ ঘন্টা = ৬০ মিনিট <br>
+                                                  ১ মিনিট = ৬০ সেকেন্ড <br>
+                                                  ১ লিটার = ১০০০ সি সি = ১০০০ মিলিলিটার <br>
+                                                  ১০০০ সি সি = ১ লিটার <br>
+                                                  </p>   
+
+                                           </div>
+
+                                    </div>
+
+                                    <div  id="part1" class="parts part1 withsidenote">
+                                      <div class="main-frame-container">
+                                            <center><img src="../images/class_6_science_1_bangla/concept_map.png" width="auto" title="" alt=""></center>
+                                      </div>
+                                    </div>
+
+
+
+
+
+
+
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Right Sidebar-->
+                    <div class="col-md-2 col-sm-12 col-xs-12">
+                        <div class="read-more-button">
+                            <a class="dnld-button" href="#">I Want to Read Another Book  <i class="fa fa-arrow-circle-o-down"></i></a>
+                        </div>
+                        <div class="progress-section">
+                            <h4 class="progress-text">Total Progress</h4>
+                            <!--to change progress percentage edit js-->
+                            <div class="progress-percent">
+                                <div class="" id="progress"></div>
+                            </div>
+                        </div>
+                        <!--Paragraph accordion section (click to expand)-->
+                        <div class="paragraph-accordion">
+                            <div id="accordion" role="tablist" aria-multiselectable="true">
+                              <div class="card">
+                                <div class="card-header" role="tab" id="headingOne">
+                                  <h5 class="mb-0">
+                                    <a class="special-accordion-button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      Additional Paragraph
+                                    </a>
+                                  </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                                  <div class="card-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, ipsum. Iste beatae pariatur, maxime molestias esse facilis optio ullam, dolores at repellat quasi fugiat modi voluptates ipsum tempora omnis laboriosam!
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-header" role="tab" id="headingTwo">
+                                  <h5 class="mb-0">
+                                    <a class="special-accordion-button" class="" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Paragraph 2
+                                    </a>
+                                  </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                  <div class="card-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque unde beatae voluptatem placeat distinctio magnam et sapiente ducimus voluptates veniam possimus recusandae, quidem! Sequi consequuntur dolor incidunt nostrum excepturi quaerat!
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-header" role="tab" id="headingThree">
+                                  <h5 class="mb-0">
+                                    <a class="special-accordion-button" class="" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      Paragraph 3
+                                    </a>
+                                  </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                  <div class="card-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa iure error dolorum perspiciatis ipsam molestias! Quae, eius. Tempore, id expedita aperiam ullam consequuntur perferendis aut minus autem! Voluptas quis, pariatur.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-header" role="tab" id="headingThree">
+                                  <h5 class="mb-0">
+                                    <a class="special-accordion-button" class="" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      Paragraph 4
+                                    </a>
+                                  </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                                  <div class="card-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates qui amet officiis tempore nisi quos accusamus, ducimus ut ea minima cumque ex laudantium, veniam voluptatibus ipsam, quisquam! Hic omnis, fuga?
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/progressbar.min.js"></script>
+        <script type="text/javascript" src="http://www.hostmath.com/Math/MathJax.js?config=OK"></script> 
+        <script src="../js/main.js"></script>
+    </body>
+</html>
+<!-- content with sidenote
+<div id="part3" class="parts part3 withsidenote">
+<button class="btn btn-primary btn-xs sidenote">Sidenote</button>
+<div class="main-frame-container">
+
+</div>
+<div class="sidenote-container">
+   <div class="sidenote-content">
+
+   </div>
+</div>
+</div>
+-->
