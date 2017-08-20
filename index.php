@@ -12,18 +12,18 @@
                 text-decoration: none;
                 color: white;
                 margin: 0 auto;
-                
+
             }
         </style>
     </head>
-    
+
     <body>
 
         <div class="container" style="margin-top:50px">
             <div class="col-md-6">
                 <div style="min-height:340px; background: green; padding: 30px">
 
-                       <a href="chapter10.php" style="min-height:340px; font-size: 30px">Chapter 10</a>
+                    <a href="chapter10.php" style="min-height:340px; font-size: 30px">Chapter 10</a>
 
 
                 </div>

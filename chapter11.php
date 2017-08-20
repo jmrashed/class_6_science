@@ -29,6 +29,16 @@
         padding-left: 30px !important;
         margin: 5px;
     }
+    .question_section{
+        margin-bottom: 10px;
+        border: 1px dotted #27a84d;
+        padding: 10px;
+    }
+    .number{
+        font-weight: bold;
+        color: #673AB7;
+        padding: 10px;
+    }
 </style>
 
 <div class="main-content-tabs col-xs-12">
@@ -466,14 +476,412 @@
                             <div class="paddingLeft30px"> 2) In this case he will rotate the handle for five complete cycles.</div>
                             <div class="paddingLeft30px"> 3) Similarly see by rotating the long handled screw driver 5 for five cycles.</div>
                             Have any differences been noticed? These differences will tell you what type of screw driver you should use to avail the mechanical efficiency of a screw driver.
+                            <center>
+                                <img class="img img-responsive" src="images/screw driver.png" style="width:auto; height: 250px; ">
+
+                            </center>
                         </div>
 
                     </div>      
                 </div>
             </div> 
-        </div>                   
+        </div> 
+
+
+
+
+
+
+        <div id="part10" class="parts part10"> 
+            <div class="main-frame-container"> 
+                <h2 style="margin-top: 10px; color:#13007C; ">        11.8 HUMAN BODY AND SIMPLE MACHINE</h2>
+                <div class="col-md-12" style="text-align: justify;">
+                    Human body is a complex machine. Some of its organs work like a simple machine. Some of the figures below will help to understand how our organ act like machines
+                    <div style="padding: 5px;">
+                        <center>
+                            <img class="img img-responsive" src="images/firstclasslever.png" style="width:auto; height: 250px; "> 
+                        </center> 
+                    </div>
+                    <div style="padding: 5px;">
+                        <center>
+                            <img class="img img-responsive" src="images/secondclasslever.png" style="width:auto; height: 250px; "> 
+                        </center> 
+                    </div>
+                    <div style="padding: 5px;">
+                        <center>
+                            <img class="img img-responsive" src="images/thirdclasslever.png" style="width:auto; height: 250px; "> 
+                        </center> 
+                    </div>
+
+                </div>
+            </div>
+        </div> 
+
+        <div id="part11" class="parts part11"> 
+            <div class="main-frame-container"> 
+                <h2 style="margin-top: 10px; color:#13007C;text-align: center ">Concept Map</h2>
+                <div class="col-md-12" style="text-align: justify;">
+
+                    <center>
+                        <img class="img img-responsive" src="images/concept-map-11.png" style="width:auto;"> 
+                    </center> 
+
+                </div>
+            </div>
+        </div>
+        <div id="part12" class="parts part12"> 
+            <div class="main-frame-container"> 
+                <h2 style="margin-top: 10px; color:#13007C;text-align: center ">SUMMARY</h2>
+                <div class="col-md-12" style="text-align: justify;">
+                    <p>*  Force, together with its various types are applied in almost every single activity in our lives. Pushing the shopping cart, pulling the baby stroller, lifting weights at the gym, eating and many other things involve the use of some force.</p>
+                    <p> *  When force is applied on a body:</p>
+                    <p class="paddingLeft30px">•	may make an object move from rest.</p>
+                    <p class="paddingLeft30px">•	may change the speed of an object if it is moving.</p>
+                    <p class="paddingLeft30px">•	may change the direction of motion of an object.</p>
+                    <p class="paddingLeft30px">•	may bring about a change in the shape of an object.</p>
+                    <p class="paddingLeft30px">•	may cause some or all of these effects.</p>
+                    <p>*  A lever is a simple machine that allows you to gain a mechanical advantage. It consists of a consists of a rigid  bar or beam that is allowed to rotate or pivot about a fulcrum, along with an applied force and load. The three types or classes of levers, depend on where the fulcrum and applied force is located.Uses for a lever are that you can move a heavy object using less force than the weight of the object, propel an object faster by applying a force at a slower speed, or move an object further than the distance you apply to the lever.                    </p> 
+                    <p>*  The first class lever uses the fulcrum in between the applied force and load, the second class lever uses the load between the fulcrum and applied force and the third class lever uses the applied force between the fulcrum and the load. Levers help to lift heavy objects. Levers are one of the simplest machines. An example of a first class lever is a seesaw or balance beam, an example of a second class lever is a wheelbarrow and an example of a third class lever is the human forearm. In the human forearm, the elbow acts as the fulcrum, the applied force is the bicep muscle and the hand acts as the load.                    </p> 
+                    <p>*  Some of the human organs follow the princple of lever                    </p> 
+                    <p>*  Dynamic pulley is one which is not at rest and it rotates with the rotation of the pulley.                    </p> 
+                    <p>*  Static pulley is one in which the block remains at rest and only the disc rotates.                    </p> 
+                    <p>*  The pulley is actually a version of a wheel and axle that is combined with a rope, chain or other cord to allow  moving something up and down or back and forth. The pulley can be combined with other pulleys to reduce the amount of work necessary to lift huge amounts of weight or to lower them down.                    </p> 
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="part13" class="parts part13"> 
+            <div class="main-frame-container"> 
+                <h2 style="margin-top: 10px; color:#13007C; text-align: center !important">Exercises</h2>
+                <p style="font-weight: bold">Fill in the blanks</p>
+                <p> 
+                    1)  When force is applied on an object, it changes or tries to change an object at rest to              ……………………… and an object in motion to………………………..<br>
+                    2)  Applying …………………….. force ……………………. work can be done by a simple machine.<br>
+                    3)  The position of …………………….. in a class-1 lever is in the middle of applied force and load.<br>
+                    4)   Jack screw follows the principle of ……………………… and ………………………. at the same time.<br>
+                    5)  ……………………………………………. is one in which the block remains at rest and only the disc      rotates.<br>
+                    6)   An …………………………. plane works by reducing the amount of force needed to lift an object from a  lower point to a higher one.<br>
+                    7)  A ……………………………………… lever has the effort between the load and the fulcrum.<br>
+                    8)   The state of ……………………….. of an object is described by its speed and the direction of motion.<br>
+                    9)   The …………………………………. is actually a version of a wheel and axle that is combined with a       rope, chain or other cord to allow moving something up and down or back and forth.<br>
+                    10)     If the hammer is used as a claw to remove a nail, it is a …………………………………. class lever.<br>
+                </p>
+            </div>
+        </div>
+
+
+
+        <div id="part14" class="parts part14"> 
+            <div class="main-frame-container"> 
+                <h2 style="margin-top: 10px; color:#13007C; text-align: center !important">Multiple Choice Questions</h2>
+                <div class="col-md-6">
+                    <div style="padding:15px;">
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 1)   What is required to do work?   </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>  Force    <br>                                
+                                <span class="number">c)</span> Labourer  <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>  Tools <br> 
+                                <span class="number">d)</span>  Materials<br> 
+                            </div>  
+                        </div>
+                        <div class="row question_section">
+                            <p style="font-weight: bold">2)  Which one may happen when a force is            applied to a body?  </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span> Change of position <br>                                
+                                <span class="number">c)</span>   Change in speed of motion <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Change of size and shape <br> 
+                                <span class="number">d)</span> All the above<br> 
+                            </div> 
+                        </div>  
+
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold">3)  Why do we use simple tools </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span> To get mechanical advantage <br>                                
+                                <span class="number">c)</span>  To get surety of its availability <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>  To avoid application of external force<br> 
+                                <span class="number">d)</span> None of the above<br> 
+                            </div> 
+                        </div>  
+
+
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold">4)  Which one is correct? </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>  A simple machine helps to do more work   by applying less force.<br>                                
+                                <span class="number">c)</span> A jack-screw helps to increase and to change the direction of force simultaneously. <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>A lever is a simple machine.<br> 
+                                <span class="number">d)</span> All the above<br> 
+                            </div> 
+                        </div>   
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold">5) Based on force, weight and fulcrum, levers      are classified into…………  </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>  2 classes  <br>                                
+                                <span class="number">c)</span>  4 classes <br>
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> 3 classes<br> 
+                                <span class="number">d)</span>  5 classes<br> 
+                            </div> 
+                        </div>   
+                        <div class="row question_section">
+                            <p style="font-weight: bold">6) What does not happen due to the influence       of force?  </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span> Change of shape of a body<br>                                
+                                <span class="number">c)</span>  Change of motion of a body<br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Change of size of a body<br> 
+                                <span class="number">d)</span>  Change of distance of a body<br> 
+                            </div> 
+                        </div>    
+                        <div class="row question_section">
+                            <p style="font-weight: bold">7)  Which one of the following is a class 2 lever?   </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span> Scissor <br>                                
+                                <span class="number">c)</span>  Forceps<br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Tong<br> 
+                                <span class="number">d)</span> Nut Cracker<br> 
+                            </div> 
+                        </div>   
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold">8)   Which of the following can be termed as             simple machine? </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span> Scissor<br>                                
+                                <span class="number">c)</span> Pincer <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Hammer<br> 
+                                <span class="number">d)</span> All the above<br> 
+                            </div> 
+                        </div>                  
+                        <div class="row question_section">
+                            <p style="font-weight: bold">9) Which of the following does not fall under simple machine?  </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span> Tong<br>                                
+                                <span class="number">c)</span>  Nut-cracker  <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Scissor<br> 
+                                <span class="number">d)</span>  Table<br> 
+                            </div> 
+                        </div>   
+
+
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold">10) Which one is the mechanical advantage of a lever?  </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span> Weight (load)/Applied Force  <br>                                
+                                <span class="number">c)</span>  Length of Force arm/Applied Force<br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Applied Force/Weight (Load)<br> 
+                                <span class="number">d)</span> Length of load arm/Load<br> 
+                            </div> 
+                        </div>   
+
+
+
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold">11) Which of the following equation is correct for principle of lever?  </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>  Force x Length of force arm = Load x                 Length of load arm <br>                                
+                                <span class="number">c)</span> Force x Load arm = Load x Force arm<br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Force x Load = Length of force arm x                 length of load arm<br> 
+                                <span class="number">d)</span>  None of the above<br> 
+                            </div> 
+                        </div>   
+
+
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-md-6"> 
+
+                    <div style="padding:15px;">
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 12)       How many types of lever there are in practice?  </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>   2   <br>                                
+                                <span class="number">c)</span>  4 <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> 3   <br> 
+                                <span class="number">d)</span> 5 <br> 
+                            </div>  
+                        </div>
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 13) Which one is class 1 lever? </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>  Bottle opener <br>                                
+                                <span class="number">c)</span>  Husking pedal <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Tongs <br> 
+                                <span class="number">d)</span> Scissor<br> 
+                            </div> 
+                        </div>  
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 14)  Which one is class II lever?   </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>   Nut-cracker    <br>                                
+                                <span class="number">c)</span> Husking pedal   <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>   Forceps <br> 
+                                <span class="number">d)</span> Balance <br> 
+                            </div>  
+                        </div>
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 15) Which one is class III lever? </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span> Pincer <br>                                
+                                <span class="number">c)</span> Balance <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Handle of tube-well <br> 
+                                <span class="number">d)</span> Scissor<br> 
+                            </div> 
+                        </div>  
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 16)   In which of the lever, force is applied in the      middle?   </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>   Scissor   <br>                                
+                                <span class="number">c)</span> Tongs <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>  Bottle opener  <br> 
+                                <span class="number">d)</span> Hammer<br> 
+                            </div>  
+                        </div>
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 17)  In the case of a scissor, where is fulcrum          situated? </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>  At the foremost end <br>                                
+                                <span class="number">c)</span>  At the last end <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>  At the middle <br> 
+                                <span class="number">d)</span>  At any point<br> 
+                            </div> 
+                        </div>    
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 18)   What is called a sliding surface?   </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>  A simple machine    <br>                                
+                                <span class="number">c)</span>  A square engine <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>   A motor engine  <br> 
+                                <span class="number">d)</span> A rectangular region <br> 
+                            </div>  
+                        </div>
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 19) How can mechanical efficiency be            increased from sliding surface? </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span> Increasing length  <br>                                
+                                <span class="number">c)</span> Increasing height  <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>  Decreasing length <br> 
+                                <span class="number">d)</span>  Decreasing height<br> 
+                            </div> 
+                        </div>  
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 20) Which one does follow the principles of             sliding surface and lever?    </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>   Axil   <br>                                
+                                <span class="number">c)</span>   Jack-screw   <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>  Hammer  <br> 
+                                <span class="number">d)</span>  Crowbar <br> 
+                            </div>  
+                        </div>
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 21) Which one is used to remove and replace             motor car wheel?</p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>  Tongs<br>                                
+                                <span class="number">c)</span>  Crowbar <br>          
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span> Jack-screw <br> 
+                                <span class="number">d)</span> Pulley<br> 
+                            </div> 
+                        </div>  
+
+                        <div class="row question_section">
+                            <p style="font-weight: bold"> 22)  Which one of the following is correct?   </p>
+                            <div class="col-md-6">
+                                <span class="number">a)</span>  Mechanical efficiency of dynamic pulley =        2  x efficiency of static pulley    <br>                                
+                                <span class="number">c)</span> Mechanical efficiency of dynamic pulley =           4 x efficiency of static pulley  <br>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span class="number">b)</span>  Mechanical efficiency of dynamic pulley             = 3 x efficiency of static pulley  <br> 
+                                <span class="number">d)</span>   Mechanical efficiency of dynamic pulley             = 5 x efficiency of static pulley<br> 
+                            </div>  
+                        </div>  
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div> 
- 
 
-<?php  include("bottom.php"); ?>                
+
+<?php include("bottom.php"); ?>                
