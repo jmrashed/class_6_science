@@ -44,11 +44,46 @@
         margin: 10px;
     }
     .bdedu_activity{
-     background-color: #99CCCC;
-    padding: 20px;
-    margin-top: 20px; 
-    box-shadow: 0px 0px 10px 5px rgba(255, 165, 0, 0.52);
-    margin-bottom: 20px;
+        background-color: #99CCCC;
+        padding: 20px;
+        margin-top: 20px; 
+        border: 2px solid blue;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .latexCode{
+        padding-left: 5px; padding-right: 5px;
+    }
+    .math_code{
+        float: left;
+        border: 2px solid rgb(255, 255, 255);
+        margin-bottom: 25px;
+        min-height: 230px;
+        padding: 10px;
+        box-shadow: 0px 1px 9px 3px #928f8f;
+        width: 100%;
+    }
+
+    .math_box{
+        margin-bottom: 25px;
+        background: #eee; 
+        padding: 10px; 
+        border: 2px solid green !important;
+
+    }
+    .activity_box{
+        margin-bottom: 25px;
+        background: #eee;
+        padding: 10px;
+        border: 5px solid rgba(193, 193, 193, 0.34) !important;
+        border-radius: 5px;
+        min-height: 340px;
+    }
+    .math_box_title{
+        font-size: 16px;
+        font-weight: bold;
+        color: green;
+        padding-left: 15px;
     }
 </style>
 
@@ -61,7 +96,6 @@
         </div>
 
         <div id="part2" class="parts part2">
-
             <div class="main-frame-container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -69,7 +103,7 @@
                         <p align="justify"> We come across ratio and percentages quite often in our daily lives. We use them to compare different quantities. A very good example would be speed which is the ratio of the distance travelled per unit time. On the other hand, percentages are simply a convenient way of expressing fractions or decimals. We use percentages in discounts, tax, commision rate of interest, profit and loss calculations etc.
                         </p> 
                         <center><img src="images/class_6_math_fraction.png" width="auto" title="" alt="" style="padding: 10px; height: 200px">
-                            <p class="caption" style="text-align: center !important"><span class="title">Figure 2.1. 1: </span>Relationship between fraction, percentage and decimal</p>  
+                            <p class="caption" style="text-align: center !important"><span class="title">Figure 2.1.1: </span>Relationship between fraction, percentage and decimal</p>  
                         </center>
                     </div>
                 </div>
@@ -78,21 +112,21 @@
 
 
         <div id="part3" class="parts part3 withsidenote">
-
             <button class="btn btn-primary btn-xs sidenote">Sidenote</button>
             <div class="main-frame-container"> 
-                    <div class="col-md-12">
-                        <h2 style="margin-top: 10px; color:#13007C">Ratio</h2>
-                        <p>  We use ratios to make comparisons between two things. When we express ratios in words, we use the word “to” - we say “the ratio of something to something else”. Ratios can be written in several different ways; like fraction, using the word “to”, or with a colon. Suppose we want to write the ratio of 3 and 4. We can write this as 3:4 or as a fraction    , and we say the ratio is three to four.</p>
-                        <p>
-                            Let's use the illustration of shapes given below to learn more about ratios. How can we write the ratio of this number squares to the number of circles? The most common way to write a ratio is as a fraction,     . We could also write it using the word “to”, as “3 to 6”. Finally, we could write this ratio using a colon between the two numbers, 3:6. Be sure you understand that these are all ways to write the same number.
-                        </p>
-                    </div> 
+                <div class="col-md-12">
+                    <h2 style="margin-top: 10px; color:#13007C">Ratio</h2>
+                    <p>  We use ratios to make comparisons between two things. When we express ratios in words, we use the word “<span style="color: green; font-weight: bold;">to</span>” - we say “<span style="color: green; font-weight: bold;">the ratio of something to something else</span>”. Ratios can be written in several different ways; like fraction, using the word “<span style="color: green; font-weight: bold;">to</span>”, or with a colon. Suppose we want to write the ratio of 3 and 4. We can write this as 3:4 or as a fraction <span lang="latex">\frac{3}{4}</span>   , and we say the ratio is <span style="color: green; font-weight: bold;">three to four.</span></p>
+                    <p>
+                        Let's use the illustration of shapes given below to learn more about ratios. How can we write the ratio of this number squares to the number of circles? The most common way to write a ratio is as a fraction,  <span lang="latex">\frac{3}{6}</span>    . We could also write it using the word “to”, as “3 to 6”. Finally, we could write this ratio using a colon between the two numbers, 3:6. Be sure you understand that these are all ways to write the same number.
+                    </p>
+                </div> 
+                <div class="row">
                     <div class="col-md-6">                                                                                                             
                         We can count ratios in differant ways. for example
-                        <div class="paddingLeft30px"> • Ratio of squares to circles is </div>
-                        <div class="paddingLeft30px">• Ratio of squares to circles is 3 to 6</div>
-                        <div class="paddingLeft30px">• Ratio of squares to circles is 3 : 6</div>
+                        <div class="paddingLeft30px"> <span lang="latex">$\bullet$</span> Ratio of squares to circles is <span lang="latex">\frac{3}{6}</span> </div>
+                        <div class="paddingLeft30px"> <span lang="latex">$\bullet$</span> Ratio of squares to circles is 3 to 6</div>
+                        <div class="paddingLeft30px"> <span lang="latex">$\bullet$</span> Ratio of squares to circles is 3 : 6</div>
                     </div>
 
                     <div class="col-md-6">
@@ -102,19 +136,30 @@
                             <span class="caption"><span class="title">Figure 11.3.1 </span>Lever</span>
                         </center>
                     </div> 
-                    <div class="col-md-12 bdedu_activity">
-                        Activity:
+                </div>
+
+                <div class="row bdedu_activity">
+                    <div class="" style="padding: 20px; margin: 10px">
+                        <div class="col-sm-12 ">
+                            Activity:
                             1.	Find the ratio of the number of boys to girls in your class.
                             2.	Find the ratio of the number of students to teachers in your school.
-                    </div>  
-                    <div class="col-sm-12">
+                        </div> 
+                    </div>
+                </div> 
+                <div class="row">
+
+                    <div class="col-sm-12 text-justify">
                         There are still other ways to make the same comparison, by using equal ratios. To find an equal ratio, you can either multiply or divide each term in the ratio by the same number (but not zero). For example, if we divide both terms in the ratio 3 : 6 by the number 3, then we get the equal ratio, 1 : 2. Do you see that these ratios both represent the same comparison?
                     </div>
-            </div> 
+                </div>
+
+
+            </div>
 
             <div class="sidenote-container">
-                <div class="sidenote-content">
-                    <p class="text-justify" style="margin-bottom:25px"><strong>  
+                <div class="sidenote-content" style="margin: 0 auto">
+                    <p class="text-justify" style="margin-top:50%"><strong>  
                             A ratio is the comparison of two or more numbers<br><br><br>
                             Ratios are always unitless, as units are canceled out in ratios.
                         </strong></p>  
@@ -128,816 +173,941 @@
 
 
 
-        <div id="part5" class="parts part5"> 
+        <div id="part4" class="parts part5">  
             <div class="main-frame-container">  
                 <div class="row">
                     <div class="col-md-12">
                         <p style="color:#13007C; font-weight: bold;margin-top: 20px">Classification of Ratios</p>
                         <p>We will now look at the different classifications of ratios.</p>
-                       <p style="color:#13007C; font-weight: bold;margin-top: 20px">Simple Ratio</p>
-                        <div class="paddingLeft30px" style="">The ratio of two quantities is called simple ratio. The first quantity is called the antecedent and the second quantity is called the subsequent. Subsequent is also known as consequent. As depicted in Figure 2.1.2, in the ratio 2 : 3, 2 is called the antecedent and 3 is the subsequent.  </div>      
-                        <p style="color:#13007C; font-weight: bold;margin-top: 20px; padding: 10px">Studying the Effect of Force on Objects</p>
-                        <pre>
-
-            Equivalent Ratios
-            As mentioned earlier, the ratio 3 : 6 and the ratio 1 : 2 are equivalent. 
-            To find out if two ratios are equal, we divide both the antecedent and the 
-            subsequent by their H.C.F and then check for equality.
-            Some examples of equivalent ratios are:
-            3 : 6 = 12 : 24 = 6 : 12 = 15 : 30
-             You can also use decimals and percentages to compare two quantities. 
-             In our previous example of squares to circles, the ratio of square to circle is 3:6 or simply 1:2.
-
-            Example 2.1.1
-            Are 3 : 12 and 18 : 72 equal ratios?
-
-            Solution:
-            H.C.F of 3 and 12 is 3
-            So, 3 : 12 = (3 ÷ 3) : (12 ÷ 3) = 1 : 4
-            H.C.F. of 18 and 72 is 18
-            So, 18 : 72 = (18 ÷ 18) : (72 ÷ 18) = 1 : 4
-            ⸫ 3 : 12 = 18 : 72
-            ⸫ They are equal ratio.
-</pre>
-                    </div>      
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8 col-xs-8">
+                                <p style="color:#13007C; font-weight: bold;margin-top: 20px">Simple Ratio</p>
+                                <p style="">The ratio of two quantities is called simple ratio. The first quantity is called the antecedent and the second quantity is called the subsequent. Subsequent is also known as consequent. As depicted in Figure 2.1.2, in the ratio 2 : 3, 2 is called the antecedent and 3 is the subsequent.  </p> 
+                            </div>
+                            <div class="col-md-4 col-sm-4  col-xs-4">
+                                </p>
+                                <center>
+                                    <img src="images/math_ratio2.png" class="img img-responsive" style="width:100%;  border: 1px solid black">
+                                    <span class="caption"><span class="title">Figure 2.1.2:</span> Different parts of a ratio</span>
+                                </center>
+                            </div>
+                        </div> 
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div id="part4" class="parts part4"> 
+        <div id="part5" class="parts part5"> 
             <button class="btn btn-primary btn-xs sidenote">Sidenote</button>
-            <div class="main-frame-container"> 
-                <h2 style="margin-top: 10px; color:#13007C"> 11.2 SIMPLE MACHINE</h2>
-                <p style="text-justify">Throughout history, humans have developed a number of devices to make work easier. The most notable of these are known as the "six simple machines": the wheel and axle, the lever, the inclined plane, the pulley, the screw and the wedge, although the latter three are actually  just extensions or combinations of the first three.
-                    Because work is defined as force acting on an object in the direction of motion, a machine makes work easier to perform by accomplishing one or more of the following functions:</p>
-                <div class="paddingLeft30px">•	transferring a force from one place to another,</div>
-                <div class="paddingLeft30px">•	changing the direction of a force, </div>
-                <div class="paddingLeft30px">•	increasing the magnitude of a force, or </div>
-                <div class="paddingLeft30px">•	increasing the distance or speed of a force. </div> 
-                <p align="justify"> Many machines combine more than one of these devices to make work easier. For instance, we might attach a long handle to a shaft to make a windlass, or use a block and tackle to pull a load up a ramp. While these machines may seem simple, they continue to provide us with the means to do many things that we could never do without them.
-                </p>
-                <center>
-                    <img src="images/effort.png" class="img img-responsive" style="width:auto; height: 200px">
-                    <span class="caption"><span class="title">Figure 11.2.1</span> Simple Machine</span>
-                </center>
+            <div class="main-frame-container">  
+                <div class="row">
+                    <div class="col-md-12">
 
+                        <p style="color:#13007C; font-weight: bold;margin-top: 20px">Equivalent Ratios</p>
+                        <p>
 
-            </div> 
-            <div class="sidenote-container">
-                <div class="sidenote-content">
-                    Machines are ways to make it easier to do work. Many plants and animals have evolved natural machines like arm muscles (a kind of lever) or teeth (a kind of wedge) or a bacteria's flagellum (a kind of screw). Many animals also make machines out of dirt, wood, and stone. People make machines too. There are six different kinds of simple machines. Many of the more complicated machines we use are made of combinations of these six simple ideas.
-                    Lever (like a can-opener)
-                    Inclined plane (like a wheelchair ramp)
-                    Wheel and axle (like a red wagon, or a car)
-                    Screw (like a corkscrew for wine)
-                    Wedge (like a knife or a fork)
-                    Pulley (like a construction crane)
+                            As mentioned earlier, the ratio 3 : 6 and the ratio 1 : 2 are equivalent. 
+                            To find out if two ratios are equal, we divide both the antecedent and the 
+                            subsequent by their H.C.F and then check for equality.</p>
+                        <p>
+                            Some examples of equivalent ratios are:<br>
+                            <b>    3 : 6 = 12 : 24 = 6 : 12 = 15 : 30 </b><br>
+                            You can also use decimals and percentages to compare two quantities. <br>
+                            In our previous example of squares to circles, the ratio of square to circle is 3:6 or simply 1:2.</p>
+                    </div>      
                 </div>
-            </div>
-        </div> 
 
-        <div id="part5" class="parts part5">  
-            <div class="main-frame-container"> 
-                <div class="col-md-12">
-                    <h2 style="margin-top: 10px; color:#13007C">  11.3 LEVER</h2>
-                    <p style="text-justify">
-                        A lever is a simple machine that allows you to gain a mechanical advantage in moving an object or in applying a force to an object. It is considered a "pure" simple machine because friction is usually so small that it is not considered a factor to overcome, as in other simple machines.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <p class="text-justify"  style="line-height: 30px">
-                        A lever consists of a rigid bar or beam that is allowed to rotate or pivot about a fulcrum. An applied force is then used to move a load. There are three common types or classes of levers, depending on where the fulcrum and applied force is located. The mechanical advantage is that you can move a heavy object using less force than the weight of the object, you can propel an object faster by applying a force at a slower speed, or you can move an object further than the distance you apply to the lever.
+                <div class="row math_box">
+                    <p class="math_box_title"> Example 2.1.1</p>
+                    <p style="padding: 15px">Are 3 : 12 and 18 : 72 equal ratios?</p>
+                    <div class="" style="padding:10px; margin: 5px">
+                        <div class="col-md-12 col-sm-12 col-xs-12 math_code">
 
-                </div>
-                <div class="col-md-6">
-                    <center>
-                        <img class="img img-responsive" src="images/lever.png" style="width:auto; height: 200px">
-                        <span class="caption"><span class="title">Figure 11.3.1 </span>Lever</span>
-                    </center>
-                    <div style="font-weight: bold; padding: 10px; border: 2px solid #70bc1f; margin: 5px; border-radius: 5px; box-shadow: 3px 3px orange;">Mechanical efficiency = weight/applied force</div>
-                </div>
-                <div class="col-md-12"> 
-                    <br><br> The principal of lever is as follows:</p>
-                    <div style="font-weight: bold; padding: 10px;">
-                        Applied force x length of force-arm = weight x the length of load-arm
-                    </div> 
-                    <center>
-                        <img class="img img-responsive" src="images/Fulcrum.png" style="width:auto; height: 200px">
-                        <span class="caption"><span class="title">Figure 11.3.1 </span>Lever</span>
-                    </center>
-                    <p>Here the length of force-arm is the distance between the point of applied force and the pivot. 
-                        Similarly the distance from the pivot to the centre of load is the length of the load-arm. 
-
-                        <br><br>Then the above principal is expressed by this equation,<br>
-                        <b>Load (weight)/applied force = the length of force/ the length of load</b></p>
-                </div> 
-                <div class="col-md-12">
-                    <div class="task"> 
-                        <div class="task-title">TASK</div>
-                        <div class="task-body">
-                            <p>1) Make a lever by binding a pencil with a scale by a rubber band. Here the pencil will act as a pivot.</p>
-                            <p align="justify"> 2) At first make the scale parallel to the ground by moving it forward and backward.</p>
-                            <p>3) Now keep five 50 paisa coins on each end of the scale in such a way so that the scale remains again parallel to the ground.</p>
-                            <p align="justify"> 4) Now, again keep 5 coins on the right side. What happens? Surely the right hand leans toward the ground. </p> 
-                            <p>5) Now again moving the scale forward and backward make it parallel to the ground by keeping 5 coins on the left side and 10 coins on the right side of the scale.
+                            <p class="math_box_title"> Solution</p>  
+                            <p> H.C.F of 3 and 12 is 3<br><br>
+                                So, 3 : 12 = (3 ÷ 3) : (12 ÷ 3) = 1 : 4 <br>
+                                H.C.F. of 18 and 72 is 18 <br>
+                                So, 18 : 72 = (18 ÷ 18) : (72 ÷ 18) = 1 : 4<br>
+                                ⸫ 3 : 12 = 18 : 72<br>
+                                ⸫ They are equal ratio.<br>
 
                             </p>
-                            What happens now? The length of the load-arm decreases and the length of the force-arm increases. We can tell the mechanical efficiency has been obtained. That is by the application of less force more weight has been lifted. Again, by putting 5 more coins we may see what happens.
+
 
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
-        </div>
-
-        <div id="part6" class="parts part6"> 
-            <div class="main-frame-container"> 
-                <h2 style="margin-top: 10px; color:#13007C; ">11.4 THE CLASSIFICATION OF LEVER</h2>
-                <p style="text-align: justify;">There are three types or classes of levers, according to where the load and effort are located with respect to the  fulcrum.
-                </p>
-                <div class="col-md-6">
-                    <p style="line-height: 30px"><b>Class 1</b><br>
-                        A class 1 lever has the fulcrum placed between the effort and load. The movement of the load is in the opposite  direction of the movement of the effort. This is the most typical lever configuration. For example: Forceps,  balance etc.</p>
-                </div>
-
-                <div class="col-md-6">
-
-                    <center>
-                        <img class="img img-responsive" src="images/class1.png" style="width:auto; height: 200px">
-                        <span class="caption"><span class="title">Figure 11.3.1 </span>Lever</span>
-                    </center>
-                </div>
+            <div class="sidenote-container">
+                <div class="sidenote-content" style="margin: 0 auto">
+                    <p class="text-justify">
+                        <b>Rules of Ratio:</b><br>
+                        a : b = ka : kb where k is  a positive constant<br>
+                        a : b ≠ a + c : b + c<br>
+                        where c is  a constant<br><br><br><br>
+                        2 fractions <span lang="latex">\frac{a}{b}</span> and <span lang="latex">\frac{c}{d}</span>                are equivalent when,<span lang="latex">\frac{a}{b} = \frac{c}{d}</span>
+                        <br>
+                        <br>
+                        <br> 
 
 
 
-                <div class="col-md-6">
-                    <p style="line-height: 30px"><b>Class 2</b><br>
-                        A class 2 lever has the load between the effort and the fulcrum. In this type of lever, the movement of the load  is in the same direction as that of the effort. Note that the length of the effort arm goes all the way to the fulcrum and is always greater than the length of the load arm in a class 2 lever. For example: bottle openers, nut-cracker etc.</p>
-                </div>
-                <div class="col-md-6">
+                        <br>
+                        Similarly, 2 ratios are equivalent when a : b = c : d
+                        <br>
+                        <br>
 
-                    <center>
-                        <img class="img img-responsive" src="images/class2.png" style="width:auto; height: 200px">
-                        <span class="caption"><span class="title">Figure 11.3.1 </span>Lever</span>
-                    </center>
-                </div>
-                <div class="col-md-6">
-                    <p style="line-height: 30px"><b>Class 3</b><br>
-                        A class 3 lever has the effort between the load and the fulcrum. Both the effort and load are in the same direction. Because of the configuration, the fulcrum must prevent the lever beam from moving upward or downward. Often a bearing is used to allow the beam to pivot. For example: pincers.</p>
-                </div>
+                        <br>                    When two ratios are equal, then the cross products of the ratios are equal. That is,
+                        <br>
+                        <span lang="latex"> a : b = c : d </span><br>
+                        <span lang="latex">\frac{a}{b} = \frac{c}{d}</span><br>
 
+                        <span lang="latex"> a \times d = b \times c </span><br>
 
-                <div class="col-md-6">
-
-                    <center>
-                        <img class="img img-responsive" src="images/class3.png" style="width:auto; height: 200px">
-                        <span class="caption"><span class="title">Figure 11.3.1 </span>Lever</span>
-                    </center>
-                </div>
-
-                <div class="col-md-12" style="margin-top: 20px">
-                    <h4> Firstly:</h4>
-                    <p style="text-align: justify">It is much easier to cut with a scissor by placing the thing that we are going to cut closer to the pivot. By decreasing the length of the load-arm, we are increasing the mechanical efficiency.</p>
-                    <center>
-                        <img class="img img-responsive" src="images/load.png" style="width:auto; height: 200px">
-                        <span class="caption"><span class="title">Figure 11.4.4</span> Scissors</span>
-                    </center>
-                </div>
-
-                <div class="col-md-6">
-                    <h4>Secondly:</h4>
-
-                    <p style="text-align: justify">A nutcracker reduces the effort needed to crack a nut. The effort is applied further away from the pivot than the load. The load is greater than the effort. Less force will be required if pivot is closer to the load. By increasing the length of the force-arm and decreasing the length of the load-arm, we get a mechanical advantage.</p>
-
-                </div>
-                <div class="col-md-6">
-                    <center>
-                        <img class="img img-responsive" src="images/cutter.png" style="width:auto; height: 200px">
-                        <span class="caption"><span class="title">Figure 11.4.5</span> Nut Cracker</span>
-                    </center>
-
-                </div>
-                <div class="col-md-12">
-                    <h4>Thirdly:</h4>
-
-                    <p style="text-align: justify">            
-                        Tweezers reduce the force you apply and increase your control of it. The effort is applied closer to the fulcrum than the load, and is greater than the load. By decreasing the length of the load-arm and increasing the length of the force-arm, we get mechanical advantage.</p>
-
-                </div>
-                <div class="col-md-12">
-                    <center>
-                        <img class="img img-responsive" src="images/effortapplied.png" style="width:auto; height: 200px">
-                        <span class="caption"><span class="title">Figure 11.4.6</span>  Tweezers</span>
-                    </center>
-
-                </div>
-
-
-
-
-            </div>
-        </div> 
-
-
-        <div id="part7" class="parts part7"> 
-            <div class="main-frame-container"> 
-                <h2 style="margin-top: 10px; color:#13007C; ">11 .5 HAMMER</h2>
-                <div class="col-md-12">
-                    <div class="col-md-6">
-                        <p style="text-align: justify;">The lever class of a hammer depends upon its use. If the hammer is used as a claw to remove a nail, it is a first  class lever. When nails are plucked by hammer force is applied by holding the hammer’s handle by the hand.  Again a nail is plucked by pressing the hammer against the area surrounding the nail, which functions as  fulcrum. In this ease the resistance against pulling out of the nail functions as weight.   When the hammer is  used to strike a nail, it is a third class lever.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <center>
-                            <img class="img img-responsive" src="images/hammer2.png" style="width:auto; height: 150px">
-                            <span class="caption"><span class="title">Figure 11.5.1</span>   Hammer</span>
-                        </center>
-
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="col-md-6">
-                        <center>
-                            <img class="img img-responsive" src="images/11.5.2.png" style="width:auto; height: 200px">
-                            <span class="caption"><span class="title">Figure 11.5.2</span>   Forceps</span>
-                        </center>
-
-                    </div>
-                    <div class="col-md-6">
-                        <p style="line-height: 30px; text-align: justify;"><b>Forceps</b><br>Forceps also act as a lever. The end where the hand holds the forceps is the force end and the end where the substance is grasped acts as the weight or load. Here, the pivot remains at the middle, so forceps is included in class-I lever. In it the length of the load-arm is unchangeable, so the mechanical advantage is availed only by changing the length of the force-arm.</p>
-                    </div>
+                        There are infinite number of equivalent ratios of any ratio.Different units can not be used to calculate ratio. To find the ratio of two quantities, their unit should be the same. 
+                    </p>  
+                    <hr>
 
                 </div>
             </div>
-        </div>
-        <div id="part8" class="parts part8"> 
-            <div class="main-frame-container"> 
-                <h2 style="margin-top: 10px; color:#13007C; ">11.6 INCLINED PLANE AND PULLEY</h2>
-                <div class="col-md-12">
-                    <p align="justify">An inclined plane works by reducing the amount of force needed to lift an object from a lower point to a higher one. The inclined plane is normally a flat surface that extends from the lowest point up to the highest, which allows things to be moved up and down the incline easier than lifting it straight up or down. The amount of force needed to move an object up an inclined plane is determined by the length of the plane between the two points. The longer the plane, the less force is needed to move, but it will take longer to get from point A to point B. A shorter plane will require more force, but less time from point to point.</p>
-                    <div style="background: #eee; border: 1px dotted black; padding: 10px; border-radius: 10px">
-                        The mechanical efficiency of an inclined plane is, 
-                        <p style="font-weight: bold;">mechanical efficiency = load (weight)/force = length of the inclined plane/height of the inclined plane</p>
-                    </div>
-                    <center>
-                        <img class="img img-responsive" src="images/11.6.1.png" style="width:auto; height: 200px">
-                        <span class="caption"><span class="title">Figure 11.6.1</span>   Inclined Plane</span>
-                    </center> 
-                </div>
 
-                <div class="col-md-12">
-                    <p style="text-align: justify;">If the slope is gentle, a person has to push or pull the object over a longer distance, but with very little effort. If the slope is steep, a person has to push or pull the object over a very short distance, but with more effort. For example; there is a greater mechanical advantage if the slope is gentle because less force will be needed to move an object up or down the slope. Some good examples of inclined planes are accessibility ramps and roofs of houses.
-                    </p>
-                    <center>
-                        <img class="img img-responsive" src="images/11.6.2.png" style="width:auto; height: 200px; border: 1px solid black">
-                        <span class="caption"><span class="title">Figure 11.6.2</span> Mechanical advantage of Inclined plane</span>
-                    </center> 
-                </div>
-
-                <div class="col-md-12" style="margin-top: 30px">
-                    <div class="col-md-6">
-                        <h4 style="color:blue">Do you know?</h4>
-                        <p align="justify" style="line-height: 30px">A jack-screw is used to raise one end of a car and to remove and replace the wheel easily. Jack-screw follows the principle of lever and inclined plane at the same time. The height of the portion of the twisted screw is the height of the inclined plane and the distance travelled through the twisted path is the length of the inclined plane. By increasing the length of the inclined plane, we can get mechanical advantage. On the other hand, the direction in which the force is applied on the handle, the load acts in the opposite direction. So by increasing the forces as well as changing the direction of force, jack-screw makes work easier.
-                        </p>
-
-                    </div>
-                    <div class="col-md-6">
-                        <center>
-                            <img class="img img-responsive" src="images/11.6.3.png" style="width:auto; height: 250px; ">
-                            <span class="caption"><span class="title">Figure 11.6.3</span> Mechanical advantage of Inclined plane</span>
-                        </center> 
-
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-12" style="margin-top: 30px"> 
-                    <h4 style="color:blue">Pulley</h4>
-                    <p align="justify" >The pulley is actually a version of a wheel and axle that is combined with a rope, chain or other cord to allow moving something up and down or back and forth. The pulley can be combined with other pulleys to reduce the amount of work necessary to lift huge amounts of weight or to lower them down. It can also make moving something such as a flag up the pole convenient to do from the ground. It changes the direction of the force necessary to do the work. I pull down on the rope, but the flag goes up.Pulleys are used in window blinds and drapery to move them up and down or back and forth. Pulleys are also used on ships to raise and lower sails, in industry to raise and lower heavy cargo, or on cranes for use in moving construction equipment. Elevators also use pulleys to move the car up and down from floor to floor.
-                    </p>
-                    <center>
-                        <img class="img img-responsive" src="images/11.6.4.png" style="width:auto; height: 250px; border:1px solid black; ">
-                        <span class="caption"><span class="title">Figure 11.6.4</span> Mechanical advantage of Inclined plane</span>
-                    </center> 
-
-                </div>
-                <div class="col-md-12" style="margin-top: 30px"> 
-                    <p style="font-weight: bold;">Pulley maybe of two kind:</p>
-                    <h4 style="color:blue">1) Static pulley: </h4>
-                    <p> Static pulley is one in which the block remains at rest and only the disc rotates. Hoisting flag is an example of static pulley. The pulley rotates as soon as the rope is pulled. The flag will be hoisted as high as much the rope is pulled down. As a result, mechanical efficiency is not available but the direction of force is changed.</p>
-
-
-
-                    <h4 style="color:blue">2) Dynamic pulley:</h4>
-                    <p>Dynamic pulley is one which is not at rest and it rotates with the rotation of the pulley. It has mechanical efficiency available in it and in this case the rope is to be pulled twice the distance of the height in which the body is to be lifted. To get this efficiency the static and dynamic pulley is used in combination. The technique can be used to change the direction of force to avail the efficiency. </p>
-
-
-                    <div style="background: #eee; border: 1px dotted black; padding: 10px; border-radius: 10px">
-                        The mechanic efficiency of dynamic pulley is two times greater than static pulley.
-                        <p style="font-weight: bold;">Mechanical efficiency of pulley = the length travelled by the force/ the length travelled by the load</p>
-                    </div>
-                </div>
-            </div>
         </div>
 
 
         <div id="part9" class="parts part9"> 
             <div class="main-frame-container"> 
-                <h2 style="margin-top: 10px; color:#13007C; ">11.7 WHEEL-ROD AXIS</h2>
-                <div class="col-md-12" style="text-align: justify;">
-                    Wheel-rod axis is one type of simple machine. A wheel and axle consists of two circular pieces of different sizes attached to each other. The larger circular piece is the wheel in the system, and the smaller circular piece is the axle. One of the circular pieces can be considered as the effort arm of the lever and the second, the resistance arm. The place at which the two are joined is the fulcrum of the system.Some examples of the wheel and axle include a door knob, a screwdriver, an egg beater, a water wheel, the steering wheel of an automobile, and the crank used to raise a bucket of water from a well. When the wheel in a wheel and axle machine is turned, so is the axle, and vice versa. For example, when you turn the handle of a screwdriver, the edge that fits into the screw head turns at the same time.The mechanical advantage of a wheel and axle machine can be found by dividing the radius of the wheel by the radius of the axle. For example, suppose that the crank on a water well turns through a radius of 2 ft (61 cm) and the radius of the axle around which the rope is wrapped is 4 in (10 cm). Then the mechanical advantage of this wheel and axle system is 2 ft divided by 4 in, or 6.
+                <div class="row math_box" >
+                    <div class="" style="padding:10px; margin: 5px">
+                        <p class="math_box_title"> Example 2.1.2:</p>
+                        <p>What should be placed in the box so that 1 : 4  and 4 :     are equivalent ratios?</p>
+                        <div class="col-md-6 col-sm-12 col-xs-12 math_code" style="line-height: 30px;" >
 
-                    <center>
-                        <img class="img img-responsive" src="images/11.7.1.png" style="width:auto; height: 250px; ">
-                        <span class="caption"><span class="title">Figure 1.7.1 </span> Wheel-rod Axis</span>
-                    </center> 
+                            <p class="math_box_title">Solution:</p> 
 
-                </div>
-                <div class="col-md-12">
-                    <div class="task">
-                        <div class="task-title">TASK</div>
-                        <div class="task-body">
-                            <p>To determine the mechanical efficiency of screw driver</p>
-                            <p><b>Required accessories: </b></p>
-                            <div class="paddingLeft30px">1) Two screw drivers of different size</div>
-                            <div class="paddingLeft30px">2) Two screw of the same length </div>
-                            <div class="paddingLeft30px">3) Soft wood </div>
+                            Since the antecedent has been multiplied by 4 (1 x 4), <br>we also multiply the subsequent of the unkonwn ratio by 4.<br> So, the box is replaced by 4 x 4 = 16<br>
+                            So, 1 : 4 = 4 : 16
+
+                        </div> 
+                    </div>
+
+                </div> 
+            </div>
+        </div>
+
+        <div id="part10" class="parts part10"> 
+            <div class="main-frame-container"> 
+                <div class="row math_box" >
+                    <div class="" style="padding:10px; margin: 5px">
+                        <p class="math_box_title"> Example 2.1.3:</p>
+                        <p> A certain type of tree always grows at the same rate throughout its life. Given that a 2 year old tree has a height of 20m, what is the height of a 6 months old tree?</p>
+                        <div class="col-md-6 col-sm-12 col-xs-12 math_code" style="line-height: 30px;" >
+
+                            <p class="math_box_title">Solution:</p> 
+                            Let, the height of the 6 month old tree be 'h' 
+                            <br>Since the times are given in two different units, we first need to convert them into the same unit.
+                            <br>So, 2 years = 2 x 12 = 24 months.
+                            <br>Moreover as the tree is growing at a constant ratio therefore
+                            <br>the ratio of highet to year will remain the same
+                            <br> 
+                            <span lang="latex"> .'. \frac{20}{24} = \frac{h}{6} </span>  <span style="padding-left: 30px; color: green">[ 20 : 24  =  h : 6 ]</span>              
+                            <br><span lang="latex"> or, 24 \times h = 20 \times 6</span>
+                            <br><span lang="latex"> or, h = \frac{20 \times 6}{24}</span>
+                            <br><span lang="latex"> .'.   h = 5m</span>
+                        </div> 
+                    </div>
+
+                </div> 
+            </div>
+        </div>
 
 
-                            <p><b>Procedure:    </b></p>
 
-                            <div class="paddingLeft30px">  1) At first one of the student drive a screw with a small screw driver. </div>
-                            <div class="paddingLeft30px"> 2) In this case he will rotate the handle for five complete cycles.</div>
-                            <div class="paddingLeft30px"> 3) Similarly see by rotating the long handled screw driver 5 for five cycles.</div>
-                            Have any differences been noticed? These differences will tell you what type of screw driver you should use to avail the mechanical efficiency of a screw driver.
-                            <center>
-                                <img class="img img-responsive" src="images/screw driver.png" style="width:auto; height: 250px; ">
+        <div id="part11" class="parts part11"> 
+            <div class="main-frame-container"> 
+                <div class="row math_box" >
+                    <div class="" style="padding:10px; margin: 5px">
+                        <p class="math_box_title"> Example 2.1.4:</p>
+                        <p> Divide Tk. 300 between Priya and Keya in the ratio 5 : 7</p>
+                        <div class="col-md-6 col-sm-12 col-xs-12 math_code" style="line-height: 30px;" >
 
-                            </center>
-                        </div>
+                            <p class="math_box_title">Solution:</p> 
+                            Let us first divide Tk. 300 into 12 equal parts (i.e. 5 + 7). Then, we distribute the money in such a way that Priya receives 5 parts and Keya receives 7 parts.
+                            <br> <br>
+                            .'.  Priya’s share is <span lang="latex">\frac{5}{12}</span> of TK. 300 = TK. 125 
+                            <br> <br> Keya’s share is <span lang="latex">\frac{7}{12}</span> of TK. 300 = TK. 175                 
+                        </div> 
+                    </div>
 
-                    </div>      
+                </div> 
+            </div>
+        </div>
+
+        <div id="part12" class="parts part12"> 
+            <div class="main-frame-container">  
+                <div class="col-md-12 activity_box"> 
+                    <p class="math_box_title">Activity: </p>
+                    <div class="col-md-12 math_code">  
+                        <div class="paddingLeft30px">1) Identify the antecedent and subsequent of the following ratios</div>
+                        <div class="paddingLeft30px"> (a) 12:25  <span class="paddingLeft30px">(b) 15:18</div>
+                        <div class="paddingLeft30px">2) Given that Kajol’s height is 1m 20 cm and Kamal’s height is 1m 5cm, what is the ratio of Kajol to Kamal height? </div>
+                        <div class="paddingLeft30px">3) In a certain chemical mixture, the ratio of the mass of chemical A and chemical B are in the ratio 4 : 1. If their   combined mass is 500 gm, what is the mass of chemical A in the mixture? </div> 
+                    </div>  
                 </div>
             </div> 
         </div> 
 
 
+        <div id="part13" class="parts part13 withsidenote"> 
+            <button class="btn btn-primary btn-xs sidenote">Sidenote</button>
+            <div class="main-frame-container">  
+                <div class="col-md-12"> 
+                    <h4 style="margin-top: 15px; color:#13007C; ">  Ratio of less inequality </h4>
+                    <p>If the antecedent is smaller than the subsequent of a simple ratio, then the ratio is called ratio of less inequality. For example, both the ratios 3 : 5 and 4 : 7 are ratios of less inequality.</p>
+
+                    <h4 style="margin-top: 15px; color:#13007C; ">  Ratio of greater inequality</h4>
+                    <p>If  the  antecedent  is  greater  than  the  subsequent  of  a  simple  ratio,  then  the  ratio is called <span style="color: green; font-weight: bold;"> ratio of greater inequality.</span>
+
+                        <br>For example, both the ratios 5 : 3 and 7 : 4 are ratios of less inequality.
+
+                    </p>
+
+                    <h4 style="margin-top: 15px; color:#13007C; ">Unit ratio</h4>
+                    <p>The ratio in which the antecedent and the subsequent are equal is called unit ratio. For example, the ratio 5 : 5 is a unit ratio. This gets simplified to 1 : 1
+
+                    </p>
 
 
+                    <h4 style="margin-top: 15px; color:#13007C; ">Inverse Ratio</h4>
+                    <p>The ratio formed by swapping the antecedent and the subsequent of a simple ratio is called an inverse ratio. For example, the inverse ratio of 3 : 7 is 7 : 3
+
+                    </p>
 
 
-        <div id="part10" class="parts part10"> 
-            <div class="main-frame-container"> 
-                <h2 style="margin-top: 10px; color:#13007C; ">        11.8 HUMAN BODY AND SIMPLE MACHINE</h2>
-                <div class="col-md-12" style="text-align: justify;">
-                    Human body is a complex machine. Some of its organs work like a simple machine. Some of the figures below will help to understand how our organ act like machines
-                    <div style="padding: 5px;">
-                        <center>
-                            <img class="img img-responsive" src="images/firstclasslever.png" style="width:auto; height: 250px; "> 
-                        </center> 
-                    </div>
-                    <div style="padding: 5px;">
-                        <center>
-                            <img class="img img-responsive" src="images/secondclasslever.png" style="width:auto; height: 250px; "> 
-                        </center> 
-                    </div>
-                    <div style="padding: 5px;">
-                        <center>
-                            <img class="img img-responsive" src="images/thirdclasslever.png" style="width:auto; height: 250px; "> 
-                        </center> 
-                    </div>
+                    <h4 style="margin-top: 15px; color:#13007C; ">Mixed or Compound Ratio</h4>
+                    <p>The ratio whose antecedent and subsequent are formed from the product of the  antecedents  and  subsequents  of  more  than  one  simple  ratio  is  called  a  mixed or compound ratio.For example, the mixed ratio of the ratios 2 : 3  and 7 : 5 is (2 x 7 : 3 x 5) = 14 : 15
+
+                    </p>
+
 
                 </div>
+            </div> 
+
+
+            <div class="sidenote-container">
+                <div class="sidenote-content" style="margin: 0 auto;">
+                    <p >     <strong>Ratio of less inequality:</strong><br>   m : n where m < n  </p>                      
+                    <p><strong>Ratio of greater inequality:</strong><br> m : n where m > n</p>  
+                    <p >A unit ratio will always get simplified to 1 : 1
+                        <br> <br>  <br>n : m is the inverse ratio of m : n.The inverse ratio of a unit ratio is also a unit ratio
+                        <br>  <br>  <br>  <br>For any two ratios,a : b and c : d, their mixed ratio is a x c : b x d 
+                    </p> 
+                </div>
             </div>
+
         </div> 
+
 
         <div id="part11" class="parts part11"> 
             <div class="main-frame-container"> 
-                <h2 style="margin-top: 10px; color:#13007C;text-align: center ">Concept Map</h2>
-                <div class="col-md-12" style="text-align: justify;">
+                <div class="row math_box" >
+                    <div class="" style="padding:10px; margin: 5px">
+                        <p class="math_box_title"> Example 2.1.5:</p>
+                        <p>Find the compound ratio of the ratios 2 : 3, 5 : 9 and 18 : 5</p>
+                        <div class="col-md-6 col-sm-12 col-xs-12 math_code" style="line-height: 30px;" >
 
-                    <center>
-                        <img class="img img-responsive" src="images/concept-map-11.png" style="width:auto;"> 
-                    </center> 
+                            <p class="math_box_title">Solution:</p> 
+                            The product of the antecedent is 2 x 5 x 18 = 180<br>
+                            The product of the subsequent is 3 x 9 x 5 = 135<br>
+                            So the required ratio is 180 : 135 = 4 : 3          <br>    
+                        </div> 
+                    </div>
 
+                </div> 
+            </div>
+        </div>
+
+
+        <div id="part14" class="parts part14"> 
+            <div class="main-frame-container">  
+                <div class="col-md-12 activity_box"> 
+                    <p class="math_box_title">Activity: </p>
+                    <div class="col-md-12 math_code" style="line-height: 30px">  
+                        <div class="paddingLeft30px">1)  Identify which one of the following are ratio of less equality and ratioof greater equality</div>
+                        <div class="paddingLeft30px"> (a) 12:17  <span class="paddingLeft30px">(b) 9:5 </span> <span class="paddingLeft30px">(c) 9:17 </span></div>
+                        <div class="paddingLeft30px">2)  Find the inverse ratio of 4 : 5 </div>
+                        <div class="paddingLeft30px">3)  Find the mixed ratio of 9 : 11 and 11 : 2 </div> 
+                    </div>  
                 </div>
-            </div>
-        </div>
-        <div id="part12" class="parts part12"> 
-            <div class="main-frame-container"> 
-                <h2 style="margin-top: 10px; color:#13007C;text-align: center ">SUMMARY</h2>
-                <div class="col-md-12" style="text-align: justify;">
-                    <p>*  Force, together with its various types are applied in almost every single activity in our lives. Pushing the shopping cart, pulling the baby stroller, lifting weights at the gym, eating and many other things involve the use of some force.</p>
-                    <p> *  When force is applied on a body:</p>
-                    <p class="paddingLeft30px">•	may make an object move from rest.</p>
-                    <p class="paddingLeft30px">•	may change the speed of an object if it is moving.</p>
-                    <p class="paddingLeft30px">•	may change the direction of motion of an object.</p>
-                    <p class="paddingLeft30px">•	may bring about a change in the shape of an object.</p>
-                    <p class="paddingLeft30px">•	may cause some or all of these effects.</p>
-                    <p>*  A lever is a simple machine that allows you to gain a mechanical advantage. It consists of a consists of a rigid  bar or beam that is allowed to rotate or pivot about a fulcrum, along with an applied force and load. The three types or classes of levers, depend on where the fulcrum and applied force is located.Uses for a lever are that you can move a heavy object using less force than the weight of the object, propel an object faster by applying a force at a slower speed, or move an object further than the distance you apply to the lever.                    </p> 
-                    <p>*  The first class lever uses the fulcrum in between the applied force and load, the second class lever uses the load between the fulcrum and applied force and the third class lever uses the applied force between the fulcrum and the load. Levers help to lift heavy objects. Levers are one of the simplest machines. An example of a first class lever is a seesaw or balance beam, an example of a second class lever is a wheelbarrow and an example of a third class lever is the human forearm. In the human forearm, the elbow acts as the fulcrum, the applied force is the bicep muscle and the hand acts as the load.                    </p> 
-                    <p>*  Some of the human organs follow the princple of lever                    </p> 
-                    <p>*  Dynamic pulley is one which is not at rest and it rotates with the rotation of the pulley.                    </p> 
-                    <p>*  Static pulley is one in which the block remains at rest and only the disc rotates.                    </p> 
-                    <p>*  The pulley is actually a version of a wheel and axle that is combined with a rope, chain or other cord to allow  moving something up and down or back and forth. The pulley can be combined with other pulleys to reduce the amount of work necessary to lift huge amounts of weight or to lower them down.                    </p> 
+            </div> 
+        </div> 
 
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div id="part13" class="parts part13"> 
-            <div class="main-frame-container"> 
-                <h2 style="margin-top: 10px; color:#13007C; text-align: center !important">Exercises</h2>
-                <p style="font-weight: bold">Fill in the blanks</p>
-                 
-            </div>
-        </div>
-
-<hr>
-<hr>
-
-    <div id="part14" class="parts part14"> 
-        <div class="main-frame-container"> 
-            <h2 style="margin-top: 10px; color:#13007C; text-align: center !important">Multiple Choice Questions</h2>
-
-
-
-
-
-<div class="codeWithLatex">
-    <p style="font-weight: bold;">Example 2.2.1</p>
-    <p>Convert the following percentages into ratios and decimals</p>
-
-    (a) 12%<br>
-    (b) 75<br>Solution:
-    <div class="paddingLeft30px">
-        
-        <div class="row" lang="latex"> (a) 12\% = \frac{12}{100} = \frac{3}{25} = 3:25 = 0.12 \\</div><br>  
-        <div class="row" lang="latex"> b) 75\% = \frac{75}{100} = \frac{3}{4} = 3:25 = 0.75   </div>
-    </div>
- </div>
-
-<div class="row">
-<div class="codeWithLatex">
-    <p style="font-weight: bold;">Example 2.2.2</p>
-    <p>Convert the following ratios to percentages</p>
-
-(a) 7 : 25<br>
-(b) 3 : 8<br>
-Solution:
-    <div class="paddingLeft30px">
-        
-        <div class="row" lang="latex"> (a) 7:25 = \frac{7}{25} \times 100\% =28\% \\</div><br>  
-        <div class="row" lang="latex"> b) 3.8 = \frac{3}{8}  \times 100\% = \frac{75}{2} =37\frac{1}{2} \% = 37.5\%   </div>
-    </div>
- </div>
-
-</div>
-<hr>
-
-<div class="row">
-<div class="codeWithLatex">
-    <p style="font-weight: bold;">Example 2.2.3</p>
-    <p>The ratio of black pens to blue pens that Mitu has is 4 : 1. Given that Mitu has 15 pens. Find how many blue
-and black pens that she has? Also express the number of blue pens as a percentage of black pens.</p>
-<div class="col-md-6">
-Sume of the ratio = 4 + 1 = 5
-4 out of 5 pens are black
-So, of 15 pens are black
-⸫ 12 pens are black
-So, the number of blue pens = 15 – 12 = 3 pens
-Alternatively, we could have used ratio here as well
-So, the number of blue pens = of 15 = 3 pens
-</div>
-<div class="col-md-6">
-2nd Part..
-Percentage of blue pens to black pens
-= × 100% = 25%
-Alternatively, black pens to b lue pens ratio is given,
-so the inverse ratio of 1 : 4 is the ratio of black pens
-to blue pens.
-⸫ Percentage = × 100% = 25%
-</div>
-
-</div>
-
-
-</div>
-</div>
-
-<hr>
-<hr>
 
         <div id="part14" class="parts part14"> 
             <div class="main-frame-container"> 
                 <h2 style="margin-top: 10px; color:#13007C; text-align: center !important">Multiple Choice Questions</h2>
-                <div class="col-md-6">
-                    <div style="padding:15px;">
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 1)   What is required to do work?   </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>  Force    <br>                                
-                                <span class="number">c)</span> Labourer  <br>
 
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>  Tools <br> 
-                                <span class="number">d)</span>  Materials<br> 
-                            </div>  
+
+
+
+
+                <div class="row math_box">
+                    <div class="" style="padding:10px; margin: 5px">
+                        <p class="math_box_title">Example 2.2.1</p>   
+                        <p>Convert the following percentages into ratios and decimals</p>
+
+                        (a) 12%<br>
+                        (b) 75<br> 
+
+                        <div class=" col-md-12 col-sm-12 col-xs-12 math_code paddingLeft30px">
+                            <p class="math_box_title">Solution:</p>
+
+                            <div class="row" lang="latex"> (a) 12\% = \frac{12}{100} = \frac{3}{25} = 3:25 = 0.12 \\</div><br>  
+                            <div class="row" lang="latex"> b) 75\% = \frac{75}{100} = \frac{3}{4} = 3:25 = 0.75   </div>
                         </div>
-                        <div class="row question_section">
-                            <p style="font-weight: bold">2)  Which one may happen when a force is            applied to a body?  </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span> Change of position <br>                                
-                                <span class="number">c)</span>   Change in speed of motion <br>
+                    </div>
 
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Change of size and shape <br> 
-                                <span class="number">d)</span> All the above<br> 
-                            </div> 
-                        </div>  
+                </div>
+            </div>
 
+            <div class="row math_box">
+                <div class="" style="padding:10px; margin: 5px">
+                    <p class="math_box_title">Example 2.2.2 </p>  
+                    <p>Convert the following ratios to percentages</p>
 
-                        <div class="row question_section">
-                            <p style="font-weight: bold">3)  Why do we use simple tools </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span> To get mechanical advantage <br>                                
-                                <span class="number">c)</span>  To get surety of its availability <br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>  To avoid application of external force<br> 
-                                <span class="number">d)</span> None of the above<br> 
-                            </div> 
-                        </div>  
+                    (a) 7 : 25<br>
+                    (b) 3 : 8<br> 
 
 
+                    <div class=" col-md-12 paddingLeft30px math_code">
+                        <p class="math_box_title">Solution:</p>
 
-                        <div class="row question_section">
-                            <p style="font-weight: bold">4)  Which one is correct? </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>  A simple machine helps to do more work   by applying less force.<br>                                
-                                <span class="number">c)</span> A jack-screw helps to increase and to change the direction of force simultaneously. <br>
+                        <div class="row" lang="latex"> (a) 7:25 = \frac{7}{25} \times 100\% =28\% \\</div><br>  
+                        <div class="row" lang="latex"> b) 3.8 = \frac{3}{8}  \times 100\% = \frac{75}{2} =37\frac{1}{2} \% = 37.5\%   </div>
+                    </div>
+                </div> 
+            </div>
 
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>A lever is a simple machine.<br> 
-                                <span class="number">d)</span> All the above<br> 
-                            </div> 
-                        </div>   
+            <div class="row math_box" >
+                <div class="" style="padding:10px; margin: 5px">
+                    <p class="math_box_title">Example 2.2.3</p>
+                    <p>The ratio of black pens to blue pens that Mitu has is 4 : 1. Given that Mitu has 15 pens. Find how many blue
+                        and black pens that she has? Also express the number of blue pens as a percentage of black pens.</p>
+                    <div class="col-md-6 col-sm-12 col-xs-12 math_code" >
 
-                        <div class="row question_section">
-                            <p style="font-weight: bold">5) Based on force, weight and fulcrum, levers      are classified into…………  </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>  2 classes  <br>                                
-                                <span class="number">c)</span>  4 classes <br>
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> 3 classes<br> 
-                                <span class="number">d)</span>  5 classes<br> 
-                            </div> 
-                        </div>   
-                        <div class="row question_section">
-                            <p style="font-weight: bold">6) What does not happen due to the influence       of force?  </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span> Change of shape of a body<br>                                
-                                <span class="number">c)</span>  Change of motion of a body<br>
+                        <p class="math_box_title">Solution:</p>
+                        Sume of the ratio = 4 + 1 = 5
+                        4 out of 5 pens are black<br>
+                        So, <span  lang="latex" class="latexCode"> \frac{4}{5} </span> of 15 pens are black<br>
+                        <span style="font-weight: bold;"> .'.</span> 12 pens are black<br>
+                        So, the number of blue pens = 15 – 12 = 3 pens<br>
+                        Alternatively, we could have used ratio here as well<br>
+                        So, the number of blue pens = of 15 = 3 pens
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 math_code" >
+                        <p class="math_box_title">2nd Part..</p>
 
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Change of size of a body<br> 
-                                <span class="number">d)</span>  Change of distance of a body<br> 
-                            </div> 
-                        </div>    
-                        <div class="row question_section">
-                            <p style="font-weight: bold">7)  Which one of the following is a class 2 lever?   </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span> Scissor <br>                                
-                                <span class="number">c)</span>  Forceps<br>
+                        Percentage of blue pens to black pens<br>
+                        = <span  lang="latex" class="latexCode"> \frac{3}{12} \times 100\% = 25\% </span>
+                        <p align="justify">
+                            Alternatively, black pens to b lue pens ratio is given,
+                            so the inverse ratio of 1 : 4 is the ratio of black pens to blue pens.</p>
 
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Tong<br> 
-                                <span class="number">d)</span> Nut Cracker<br> 
-                            </div> 
-                        </div>   
-
-                        <div class="row question_section">
-                            <p style="font-weight: bold">8)   Which of the following can be termed as             simple machine? </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span> Scissor<br>                                
-                                <span class="number">c)</span> Pincer <br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Hammer<br> 
-                                <span class="number">d)</span> All the above<br> 
-                            </div> 
-                        </div>                  
-                        <div class="row question_section">
-                            <p style="font-weight: bold">9) Which of the following does not fall under simple machine?  </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span> Tong<br>                                
-                                <span class="number">c)</span>  Nut-cracker  <br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Scissor<br> 
-                                <span class="number">d)</span>  Table<br> 
-                            </div> 
-                        </div>   
-
-
-
-                        <div class="row question_section">
-                            <p style="font-weight: bold">10) Which one is the mechanical advantage of a lever?  </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span> Weight (load)/Applied Force  <br>                                
-                                <span class="number">c)</span>  Length of Force arm/Applied Force<br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Applied Force/Weight (Load)<br> 
-                                <span class="number">d)</span> Length of load arm/Load<br> 
-                            </div> 
-                        </div>   
-
-
-
-
-                        <div class="row question_section">
-                            <p style="font-weight: bold">11) Which of the following equation is correct for principle of lever?  </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>  Force x Length of force arm = Load x                 Length of load arm <br>                                
-                                <span class="number">c)</span> Force x Load arm = Load x Force arm<br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Force x Load = Length of force arm x                 length of load arm<br> 
-                                <span class="number">d)</span>  None of the above<br> 
-                            </div> 
-                        </div>   
-
-
-
-
-
-
-
+                        <span  lang="latex" class="latexCode">  .'. Percentage =  \frac{1}{4} \times 100\% = 25\% </span>
+                        <p align="justify"></p>
                     </div>
                 </div>
-                <div class="col-md-6"> 
 
-                    <div style="padding:15px;">
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 12)       How many types of lever there are in practice?  </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>   2   <br>                                
-                                <span class="number">c)</span>  4 <br>
+            </div> 
 
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> 3   <br> 
-                                <span class="number">d)</span> 5 <br> 
-                            </div>  
-                        </div>
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 13) Which one is class 1 lever? </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>  Bottle opener <br>                                
-                                <span class="number">c)</span>  Husking pedal <br>
 
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Tongs <br> 
-                                <span class="number">d)</span> Scissor<br> 
-                            </div> 
-                        </div>  
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 14)  Which one is class II lever?   </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>   Nut-cracker    <br>                                
-                                <span class="number">c)</span> Husking pedal   <br>
 
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>   Forceps <br> 
-                                <span class="number">d)</span> Balance <br> 
-                            </div>  
-                        </div>
 
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 15) Which one is class III lever? </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span> Pincer <br>                                
-                                <span class="number">c)</span> Balance <br>
 
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Handle of tube-well <br> 
-                                <span class="number">d)</span> Scissor<br> 
-                            </div> 
-                        </div>  
-
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 16)   In which of the lever, force is applied in the      middle?   </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>   Scissor   <br>                                
-                                <span class="number">c)</span> Tongs <br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>  Bottle opener  <br> 
-                                <span class="number">d)</span> Hammer<br> 
-                            </div>  
-                        </div>
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 17)  In the case of a scissor, where is fulcrum          situated? </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>  At the foremost end <br>                                
-                                <span class="number">c)</span>  At the last end <br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>  At the middle <br> 
-                                <span class="number">d)</span>  At any point<br> 
-                            </div> 
-                        </div>    
-
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 18)   What is called a sliding surface?   </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>  A simple machine    <br>                                
-                                <span class="number">c)</span>  A square engine <br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>   A motor engine  <br> 
-                                <span class="number">d)</span> A rectangular region <br> 
-                            </div>  
-                        </div>
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 19) How can mechanical efficiency be            increased from sliding surface? </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span> Increasing length  <br>                                
-                                <span class="number">c)</span> Increasing height  <br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>  Decreasing length <br> 
-                                <span class="number">d)</span>  Decreasing height<br> 
-                            </div> 
-                        </div>  
-
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 20) Which one does follow the principles of             sliding surface and lever?    </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>   Axil   <br>                                
-                                <span class="number">c)</span>   Jack-screw   <br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>  Hammer  <br> 
-                                <span class="number">d)</span>  Crowbar <br> 
-                            </div>  
-                        </div>
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 21) Which one is used to remove and replace             motor car wheel?</p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>  Tongs<br>                                
-                                <span class="number">c)</span>  Crowbar <br>          
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span> Jack-screw <br> 
-                                <span class="number">d)</span> Pulley<br> 
-                            </div> 
-                        </div>  
-
-                        <div class="row question_section">
-                            <p style="font-weight: bold"> 22)  Which one of the following is correct?   </p>
-                            <div class="col-md-6">
-                                <span class="number">a)</span>  Mechanical efficiency of dynamic pulley =        2  x efficiency of static pulley    <br>                                
-                                <span class="number">c)</span> Mechanical efficiency of dynamic pulley =           4 x efficiency of static pulley  <br>
-
-                            </div>
-                            <div class="col-md-6">
-                                <span class="number">b)</span>  Mechanical efficiency of dynamic pulley             = 3 x efficiency of static pulley  <br> 
-                                <span class="number">d)</span>   Mechanical efficiency of dynamic pulley             = 5 x efficiency of static pulley<br> 
-                            </div>  
-                        </div>  
+            <div class="row math_box"  >
+                <div class="" style="padding:10px; margin: 5px">
+                    <p class="math_box_title">Example 3.2.4</p>
+                    <p align="justify">A shop sells only Igloo and Polar ice creams. The ratio of Igloo and Polar is 2 : 3 with a total of 50 ice creams on a certain day. At the end of the day, the shop keeper was able to sell 7 Igloo and 4 Polar ice creams. What is the new ratio of Igloo to Polar ice cream left is the shop?</p>
+                    <div class="col-md-12 math_code">
+                        <p class="math_box_title">Solution:</p>
+                        At the beginning of the day, the number of each brand of ice cream is Igloo =  <span lang="latex"> \frac{2}{5} </span> of 50 = 20<br>
+                        Polar =   <span lang="latex"> \frac{3}{5} </span>     of 50 = 30<br>
+                        At the end of the day, the number of each brand of ice cream is<br>
+                        Igloo = 20 – 7 = 13 and Polar = 30 – 4 = 26So, the new ratio is13 : 26 = 1 : 2
 
                     </div>
                 </div>
             </div>
+
+
+            <div class="row math_box">
+                <p class="math_box_title">How to calculate the percentage increase: </p>
+                <div class="" style="padding:10px; margin: 5px">
+                    <div class="col-md-12 col-sm-12 col-xs-12 math_code">
+
+                        <p class="math_box_title"> Step 1:</p>
+                        Work out the difference (increase) between the two numbers you are comparing.<br>
+                        <span lang="latex"> Increase = New Value - Original Value</span>
+
+                        <hr>
+                        <p class="math_box_title"> Step 2:</p> 
+                        <p>
+                            Divide the increased amount by the original Value and multiply the answer by 100.</p>
+                        <span lang="latex">  .'.   \% increase =\frac{Increased amount}{Original Value} \times 100\%</span>
+                        <p>If your answer is a negative Value then you have to understand that it is a percentage decrease</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="row math_box">
+                <p class="math_box_title">How to calculate percentage decrease: </p>
+                <div class="" style="padding:10px; margin: 5px">
+                    <div class="col-md-12 col-sm-12 col-xs-12 math_code">
+
+                        <p class="math_box_title"> Step 1:</p>
+                        Work out the difference (decrease) between the two numbers you are comparing.<br>
+                        <span lang="latex"> Decrease = Original Value -  New Value</span>
+
+                        <hr>
+                        <p class="math_box_title"> Step 2:</p> 
+                        <p>
+                            Divide the decrease by the original number and multiply the answer by 100.</p>
+                        <span lang="latex">  .'.   \% Decreased  =\frac{Decreased amount}{Original Value} \times 100\%</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="row math_box">
+                <p class="math_box_title">Example 3.2.5: </p>
+                <p style="padding: 15px">Tonmoy sold a T-shirt for Tk. 250 which he bought at Tk. 200. What is his percentage profit?</p>
+                <div class="" style="padding:10px; margin: 5px">
+                    <div class="col-md-12 col-sm-12 col-xs-12 math_code">
+
+                        <p class="math_box_title"> Solution</p> 
+                        <span lang="latex"> Profit =  \frac{Selling Price - Cost Price}{Cost Price} \times 100\% </span><br><br>
+                        <span lang="latex"> = \frac{250 - 200}{200} \times 100\%   </span><br><br>
+                        <span lang="latex"> = 25\%</span>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
 
-    </div>
-</div> 
+        <div id="part21" class="parts part21"> 
+            <div class="main-frame-container">  
+                <h2 style="margin-top: 10px; color:#13007C; text-align: center !important">Exercise 2.2</h2>
+
+<h1 style="color: red">  ------ Content baki ase ----------
+
+</h1>
+                <p style="padding-left: 25px">3.     Drubo scored 115 out of a 150 mark test. If 80% score is requested to get “A”, did he get an “A”?
+                </p><p style="padding-left: 25px">4.     In a certain constituency, there are 85,000 voters but 15% of them did not cast their vote.How many people voted?
+                </p><p style="padding-left: 25px">5.     After spending 88% of his income, a man is left with Tk. 21, 600. Find his income.
+                </p><p style="padding-left: 25px">6. At the beginning of 2015, the height of a tree is 4.58m. At the end of the year, the height is 5.4 m.What is the percentage increase of the tree?
+                </p><p style="padding-left: 25px">7.     A florist bought 360 roses at Tk. 60 per dozen. If he sold them at Tk. 7 each, what is his percentage              profit?
+                </p><p style="padding-left: 25px">8.     In the last two weeks of a sale, prices are reduced first by 30% and then by a further 40% ofthe new price. What is the final selling price of a shirt which originally cost Tk. 150?
+                </p><p style="padding-left: 25px">9.     Over a period of 6 months, a colony of bees increases by 25%. After six months, a disease hits thecolony that kills 30% of the bees. If there were 2000 bees in the hive, how many are there at the end?
+                </p><p style="padding-left: 25px">10.    In 2000 a club had 250 members and each of them had to pay Tk. 1000 as annual membership fee.However, in 2015, the membership increased by 4% and the fee increased by 6%. What is thepercentage increase in the earnings of the club?
+            </div>
+        </div>
 
 
-<?php  //include("bottom.php"); ?>                
+
+
+        <div id="part21" class="parts part21"> 
+            <div class="main-frame-container"> 
+                <p style="font-weight: bold; color: blue;">The Unitary method</p>
+                <div class="col-md-12">
+                    <p align="justify">In the unitary method we find the value of a unit from the value of a multiple of units and the value of a multiple of units from the value of a single unit. When we go to the market to buy any product, we ask the shopkeeper to tell the price of that product. This is called unit price. We can calculate the total price of a number of items, we want to buy, with the help of this unit price. Sometimes, we calculate unit price when the price of a multiple is given. The method to calculate the price of the required items is called the unitary method.</p>
+                </div> 
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+
+                        <p align="justify">First we find the value of one item from the value of a multiple of them and then we find the value of the desired number of items from the value of unit. Usually this method involves the operations of multiplication and division both.</p>
+                        <p align="justify">The unitary method is a technique which is used for finding the value of manies by finding the value of a single unit, i.e., 1 unit, (by dividing) and  then    multiplying  the  single  unit  by  our  desired value. In essence, the unitary method is used to find the value of a unit from the value of a multiple (by dividing), and thence the value of another multiple (by multiplying). </p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+
+                        <center><img src="images/UnitaryMethod.png" class="img img-responsive" width="100%" title="" alt="" style="padding: 10px; height: 200px">
+                            <p class="caption" style="text-align: center !important"><span class="title">Figure 2.3.1: </span>Unitary method</p>  
+                        </center>
+                    </div> 
+                </div>
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-4 col-sm-6 col-xs-12" style="line-height: 30px;">
+                        <p class="math_box_title">For Example, </p>
+                        <p align="justify">(i) A pack of 6 balls costs Tk. 48 and we have to buy 4 balls.</p>
+
+
+                        <p align="justify">(ii) 20  oranges  cost Tk.  60  and we have to buy 8 oranges.</p>
+
+                        <p align="justify">(iii) The cost of 100 kg of wheat is Tk. 850 and we have to buy 40 kg of wheat.</p>
+
+
+                        <p align="justify">In all the cases, first we find the unit  cost  for  calculating  the  cost  of the desired number of articles. To  find  the  unit  cost  we  divide the  cost  of  many  items  by  the  number  of  articles.  The  unitary  method works as follows</p>
+                    </div>
+
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <center><img src="images/Unitarymethod-in-action.png" class="img img-responsive" width="100%" title="" alt="" style="padding: 10px; height: auto;">
+                            <p class="caption" style="text-align: center !important"><span class="title">Figure 2.3.2:  </span>Unitary method in action</p>  
+                        </center>
+
+
+                    </div>
+
+                    <div class="col-md-12">
+                        <h4>Step 1:</h4>
+                        Calculate the unit value of the variable required as a “per unit” amount, for example: per hour, per metre, per kilogram, etc. The variable we need to find is always placed to the right
+
+                        <h4>Step 2: </h4>Multiply the “per unit” amount from step 1 with the desired unit (value of the variable of interest).Now let us apply this technique to solve some problems.
+                    </div> 
+                </div>
+            </div>
+
+
+
+
+            <div id="part22" class="parts part22"> 
+                <div class="main-frame-container"> 
+                    <div class="row math_box">
+                        <p class="math_box_title">Example 2.3.1: </p>
+                        <p style="padding: 15px">A man walks 7 miles in 2 hours. How far does he walk in 7 hours?</p>
+                        <div class="" style="padding:10px; margin: 5px">
+                            <div class="col-md-12 col-sm-12 col-xs-12 math_code">
+                                <p class="math_box_title"> Solution</p>  
+                                <p>To solve this problem first we need to calculate how far the man walks in 1 hour. We assume that he would walks equal distances in any interval of time (i.e. at a constant rate). <br><br>Therefore, the man walks  <span lang="latex">\frac{7}{2}  = 3.5 </span>     miles in 1 hour. In 7 hours, <br><br>the man walks  7 X 3.5 = 24.5   miles
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="part23" class="parts part23"> 
+                <div class="main-frame-container"> 
+                    <div class="row math_box">
+                        <p class="math_box_title">Example 2.3.2: </p>
+                        <p style="padding: 15px">Three men can build a wall in 10 days. How long will it take five men to build the same wall?</p>
+                        <div class="" style="padding:10px; margin: 5px">
+                            <div class="col-md-12 col-sm-12 col-xs-12 math_code">
+
+                                <p class="math_box_title"> Solution</p>  
+                                <p>
+                                    3 men take 10 days to build a wall<br><br>
+                                    1 man takes (10 X 3) days to build the wall (1 man will take more time than 3 men)<br><br>
+                                    5 men will take  <span lang="latex"> \frac{10 \times 3}{5} = 6</span> to build the wall (5 men will take less time than 1 man)<br><br>
+                                    So, it will take 6 days to build the wall.
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div id="part24" class="parts part24"> 
+                <div class="main-frame-container">  
+                    <div class="row math_box">
+                        <p class="math_box_title">Example 2.3.3: </p>
+                        <p style="padding: 15px">Alam can do a job in 15 hours and Biplob can do the same job in 10 hours. How long will it take to do the job if both Alam and Biplob do the work together?</p>
+                        <div class="" style="padding:10px; margin: 5px">
+                            <div class="col-md-12 col-sm-12 col-xs-12 math_code">
+
+                                <p class="math_box_title"> Solution</p>  
+                                <p>In 15 hours Alam completes the entire job</p>
+                                <p> .'. In 1 hour, <span style="padding-left: 15px; padding-right: 15px"> " </span> <span style="padding-left: 15px; padding-right: 15px"> " </span> <span lang="latex">\frac{1}{15} </span> of the <span style="padding-left: 15px; padding-right: 15px"> " </span> <span style="padding-left: 15px; padding-right: 15px"> " </span> </p>
+                                <p>In 10 hours Biplob completes the entire job</p>
+                                <p> .'. In 1 hour, <span style="padding-left: 15px; padding-right: 15px"> " </span> <span style="padding-left: 15px; padding-right: 15px"> " </span> <span lang="latex">\frac{1}{10} </span> of the <span style="padding-left: 15px; padding-right: 15px"> " </span> <span style="padding-left: 15px; padding-right: 15px"> " </span> </p>
+
+
+                                <p>Working together, in 1 hour they finish </span> <span lang="latex">( \frac{1}{15} + \frac{1}{10}  )</span> parts of job  </p>
+                                <p style="padding-left:40%"> = <span lang="latex">( \frac{2 + 3 }{30} )</span> parts</p>
+                                <p style="padding-left:40%"> = <span lang="latex">( \frac{5}{30} )</span> parts</p> 
+
+
+                                <p style="padding-left:40%"> = <span lang="latex">( \frac{1}{6} )</span> parts</p> 
+                                <br> 
+                                <p>
+                                    Alam and Biplob complete   <span lang="latex">( \frac{1}{6} )</span>   portion of the task in 1 hour</p>
+                                <br>
+                                So, they complete the entire task in 
+                                <span lang="latex"> (1 \div  \frac{6}{1}   )</span>  hours =  <span lang="latex"> (1 \times \frac{6}{1}   ) </span> hours = 6 hours
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div id="part25" class="parts part25"> 
+                <div class="main-frame-container">  
+                    <div class="row math_box">
+                        <p class="math_box_title">Example 2.3.4:</p>
+                        <p style="padding: 15px">A ship has sufficient food to supply 600 passengers for 3 weeks. How long would the food last for 800 people?</p>
+                        <div class="" style="padding:10px; margin: 5px">
+                            <div class="col-md-12 col-sm-12 col-xs-12 math_code">
+
+                                <p class="math_box_title"> Solution</p>  
+                                <p>
+                                    Using unitary method,<br><br>
+                                    For 600 passengers, the food lasts for 3 weeks<br>
+
+                                    For 1 passenger,   
+                                <spam style="padding-left: 20px">  </spam> " <spam style="padding-left: 20px"> </spam> "   <spam style="padding-left: 20px"></spam> 
+                                <span lang="latex">(600 \times 3) </span>  weeks    <br><br> 
+                                For 800 passengers, 
+                                <spam style="padding-left: 20px">  </spam> " <spam style="padding-left: 20px"> </spam> "   <spam style="padding-left: 20px"></spam> 
+                                <span lang="latex">(\frac{600 \times 3}{800})</span> weeks
+                                <br><br> 
+                                So, the food will last for 2.25 weeks
+
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="part26" class="parts part26"> 
+                <div class="main-frame-container">  
+
+                    <div class="row math_box">
+                        <p class="math_box_title">Example 2.3.5: </p>
+                        <p style="padding: 15px">A wheel turns through 90 revolutions per minute. How many degrees does it turn through in 1 second?</p>
+                        <div class="" style="padding:10px; margin: 5px">
+                            <div class="col-md-12 col-sm-12 col-xs-12 math_code">
+
+                                <p class="math_box_title"> Solution</p> 
+                                In 1 minute, a wheel revolves 90 times <br><br> 
+                                In 1 minute, a wheel revolves <span lang="latex">(90 \times 360)^{\circ}   </span><br><br> 
+                                In 60 seconds, the wheel revolves <span lang="latex"> (90 \times  360)^{\circ} ̊       </span>  
+
+
+                                <span style="color: green; padding-left: 20px">[1 revolution =   360 ̊  ]</span><br><br> 
+                                In 1 second, the wheel revolves <span lang="latex"> (\frac{90 \times 360}{60}) ^{\circ}</span>
+                                <span style="color: green; padding-left: 20px">[1 minute  =  60 seconds ]</span><br><br>
+                                '.' The wheel revolves <span lang="latex">  540^{\circ}  </span> in 1 second. <br><br> 
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div id="part27" class="parts part27"> 
+                <div class="main-frame-container">  
+                    <div class="col-md-12 activity_box"> 
+                        <p class="math_box_title">Activity: </p>
+                        <div class="col-md-12 math_code">  
+                            <div class="paddingLeft30px">1) A ream of paper contains 480 sheets of paper. A certain box holds 16 reams. What is the number of sheets of paper in 5 of these boxes?</div>
+
+                            <div class="paddingLeft30px">2) On a map <span lang="latex">\frac{1}{3}</span>      inch equals 15 miles. The distance between two towns on a map is 3 inches. Find the actual distance between the two towns.
+
+                            </div>
+                            <div class="paddingLeft30px">3)  There are 216 pencils in 18 boxes. How many pencils are there in 20 boxes? </div> 
+                        </div>  
+                    </div>
+                </div> 
+            </div> 
+
+
+            <div id="part28" class="parts part28"> 
+                <div class="main-frame-container"> 
+                    <h2 style="margin-top: 10px; color:#13007C; text-align: center !important">Multiple Choice Questions</h2>
+                    <div class="col-md-6">
+                        <div style="padding:15px;">
+                            <div class="row question_section">
+                                <p style="font-weight: bold"> 1)   5m of pipe weigh is 75kg, what is the weight of 75m of such a pipe?   </p>
+                                <div class="col-md-6">
+                                    <span class="number">a)</span>  25kg    <br>                                
+                                    <span class="number">c)</span> 225m  <br>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span>  25m <br> 
+                                    <span class="number">d)</span>  225kg2<br> 
+                                </div>  
+                            </div>
+                            <div class="row question_section">
+                                <p style="font-weight: bold">2)   6 dozen pencils cost Tk. 144, what is the cost of 5 pencils? </p>
+                                <div class="col-md-6">
+                                    <span class="number">a)</span> Tk. 240<br>                                
+                                    <span class="number">c)</span>  Tk. 15<br>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span>  Tk.  10 <br> 
+                                    <span class="number">d)</span>  Tk. 20<br> 
+                                </div> 
+                            </div>  
+
+
+                            <div class="row question_section">
+                                <p style="font-weight: bold">3)  car uses 10 litres of petrol to travel75 km. How far will it go using 8 litres? </p>
+                                <div class="col-md-6">
+                                    <span class="number">a)</span> 30 km <br>                                
+                                    <span class="number">c)</span>  7.5 km<br>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span>60 km<br> 
+                                    <span class="number">d)</span> 80 km<br> 
+                                </div> 
+                            </div>  
+
+
+
+                            <div class="row question_section">
+                                <p style="font-weight: bold">4) It takes a production line 45 hours to make 120 cars. How long does it take to make 200 cars? </p>
+                                (a) 75 hours(b) 60 hours(c) 50 hours(d) 100 hours
+                                <div class="col-md-6">
+                                    <span class="number">a)</span> 75 hours<br>                                
+                                    <span class="number">c)</span>60 hours<br>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span>50 hours<br> 
+                                    <span class="number">d)</span> 100 hours<br> 
+                                </div> 
+                            </div>   
+
+                            <div class="row question_section">
+                                <p style="font-weight: bold">5) If the thickness of 1000 sheets of paper is 8 cm, then what would be the thickness of 550 sheets of this paper?</p>
+                                <div class="col-md-6">
+                                    <span class="number">a)</span> 4 cm  <br>                                
+                                    <span class="number">c)</span> <span lang="latex">7\frac{3}{11}</span> cm <br>
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span>4.4 cm<br> 
+                                    <span class="number">d)</span>  7 cm<br> 
+                                </div> 
+                            </div>   
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div style="padding:15px;">
+                            <div class="row question_section">
+                                <p style="font-weight: bold">6) The height of an office building is 120 feet. Express this height in inches.[1 feet = 12 inches] </p>
+                                <div class="col-md-6">
+                                    <span class="number">a)</span> 10 inches<br>                                
+                                    <span class="number">c)</span>  1200 inches<br>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span> 1440 inches<br> 
+                                    <span class="number">d)</span>none of them<br> 
+                                </div> 
+                            </div>    
+                            <div class="row question_section">
+                                <p style="font-weight: bold">7) Rani can types 450 words in half an hour.  How many words would she type in   12 minutes? </p>
+                                <div class="col-md-6">
+                                    <span class="number">a)</span> 37.5 words <br>                                
+                                    <span class="number">c)</span>  15 words<br>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span> 7.5 words<br> 
+                                    <span class="number">d)</span> 2, 250 words<br> 
+                                </div> 
+                            </div>   
+
+                            <div class="row question_section">
+                                <p style="font-weight: bold">8) Wajed copied out a 6000-word essay in 80 minutes. How many words can he copy out in 6 hours? </p>
+                                <div class="col-md-6">
+                                    <span class="number">a)</span> 27,000<br>                                
+                                    <span class="number">c)</span> 54,000 <br>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span> 12,000<br> 
+                                    <span class="number">d)</span> 10,0009<br> 
+                                </div> 
+                            </div>                  
+                            <div class="row question_section">
+                                <p style="font-weight: bold">9) If Jubair can paint a house in 4 hours, and Abdul Alim can paint the same house in 6 hours, how long will it take for both of them to paint the house together?</p>
+                                <div class="col-md-6">
+                                    <span class="number">a)</span> 2.4  hours<br>                                
+                                    <span class="number">c)</span> 2  hours <br>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span> 10  hours<br> 
+                                    <span class="number">d)</span>  4.2  hours<br> 
+                                </div> 
+                            </div>   
+
+
+
+                            <div class="row question_section">
+                                <p style="font-weight: bold">10)  people can complete the job in 42 days. How many more people will be needed to do the job in 14 days? </p>
+                                <div class="col-md-6">
+                                    <span class="number">a)</span> 156                          <br>                                
+                                    <span class="number">c)</span> 76<br>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="number">b)</span> 228<br> 
+                                    <span class="number">d)</span> 140<br> 
+                                </div> 
+                            </div>   
+
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+
+
+
+
+            <div id="part29" class="parts part29"> 
+                <div class="main-frame-container"> 
+                    <h2 style="margin-top: 10px; color:#13007C;text-align: center ">Exercise 2.3</h2>
+                    <div class="col-md-12" style="text-align: left; padding-left: 20px; line-height: 30px">
+                        1.     A car travels 228 km in 3 hours.<br> 
+                        <span style="padding-left:20px"></span> (a)    How long will it take to travel 912 km?<br> 
+                        <span style="padding-left:20px"></span> (b)    How far will it travel in 7 hours?<br>  
+                        2.     The weight of 56 books is 8 kg.<br> 
+                        <span style="padding-left:20px"></span>  (a)    What is the weight of 152 such books?<br> 
+                        <span style="padding-left:20px"></span>  (b)    How many such books weigh 5 kg?<br>   
+                        3.     A tank that is    full contains 1800 litres. What is its capacity?<br> 
+                        4.     An aircraft flying at 500 km/h completes a journey in 8.4 hours. How long would the journey take if it flew at a speed of 420 km/h?<br> 
+                        5.     In a camp, there are provisions for 400 peoples for 23 days. If 60 more peoples join the camp,find the number of days the provision will last?<br> 
+
+                        6.     A floor is covered by 800 square tiles measuring 10 cm. How many square tile of length 8 cm will be needed to cover the same floor?<br> 
+
+                        7.An engine has enough fuel to operate at full power for 20 minutes. For how long could the engine operate at 35% of full power?<br> 
+
+                        8.     Jahid can drive to work in 18 minutes if he travels at an average speed of 30 mph. How long will the journey take if he drives at an average speed of 45 mph?<br> 
+
+                        9.     Find the cost of 20 grams of lead at Tk. 600 per kilogram.<br> 
+
+                        10.    If it takes 6 men 4 days to dig a hole 3 feet deep, how long will it take 10 men to dig a hole 7 feet             deep?<br> 
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="part30" class="parts part30"> 
+                <div class="main-frame-container"> 
+                    <h2 style="margin-top: 10px; color:#13007C;text-align: center ">SUMMARY</h2>
+                    <div class="col-md-12" style="text-align: left; padding-left: 20px; line-height: 30px">
+                        1. A ratio is the comparison of two or more numbers <br> 
+
+                        2. A ratio has no units <br> 
+
+                        3. The ratio of two quantities is called simple ratio. The first quantity is called the antecedent and the second quantity is called the subsequent. <br> 
+
+                        4.     2 ratios are equivalent when a : b = c : d (i.e. c : d = ka : kb) <br> 
+
+                        5.     There are an infinite number of equivalent ratios of any ratio <br> 
+
+                        6. If the antecedent is smaller than the subsequent of a simple ratio, then the ratio is called the ratioof less inequality. <br> 
+
+                        7. If the antecedent is greater than the subsequent of a simple ratio, then the ratio is called the ratio of greater inequality. <br> 
+
+                        8. The ratio in which the antecedent and the subsequent are equal is called unit ratio. <br> 
+
+                        9. The ratio formed by swapping the antecedent and the subsequent of a simple ratio is called aninverse ratio. <br> 
+
+                        10. The ratio whose antecedent and subsequent are formed from the product of the corresponding antecedents and subsequents of more than one simple ratio is called a mixed or compound ratio. <br> 
+
+                        11. Percentage can also be expressed as a Decimal or a Fraction <br> 
+
+                        12. To convert from percentage to fraction, just divide the percentage by 100 and remove the ‘%’ sign. <br> 
+
+                        13. To convert ratio to percentage, just multiply the equivalent fraction by 100 and put a ‘%’ sign. <br> 
+
+                        14. The       unitary method is a technique which is used for finding the value of manies by finding the value  of a single unit, i.e., 1 unit. <br> 
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="part30" class="parts part30"> 
+                <div class="main-frame-container"> 
+                    <h2 style="margin-top: 10px; color:#13007C;text-align: center ">Concept map</h2>
+                    <div class="col-md-12" style="margin:10px">
+                        <img src="images/math-cocept-map1.png" width="100%" style="border:2px solid orange;padding: 10px;border-radius: 10px">
+                    </div>
+                    <div class="col-md-12" style="margin:10px">
+                        <img src="images/math-cocept-map2.png" class="img img-responsive" width="100%" style="border:2px solid orange;padding: 10px;border-radius: 10px">
+                    </div>
+
+                </div>
+            </div> 
+        </div>
+    </div> 
+
+
+    <?php //include("bottom.php"); ?>                
